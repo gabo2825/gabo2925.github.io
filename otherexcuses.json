@@ -1,3 +1,0 @@
-if (/matt/i.test("$(querystring)")) {
-      "Don’t look at me like that, it would have been shit anyways! " + cool[Math.floor(Math.random()*cool.length)];
-}
