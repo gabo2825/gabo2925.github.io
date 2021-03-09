@@ -22,7 +22,7 @@ const cry=[' kaestr1Cry    ',
            ' smolCry       '];
 
 start=" Did y'all know ";
-middle=" is a kecking ";
+middle=" is a hecking ";
 trait=" cutie? ";
 end=" I bet ya didn't "+cool[Math.floor(Math.random()*cool.length)];
 
