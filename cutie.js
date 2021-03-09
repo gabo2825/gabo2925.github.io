@@ -51,6 +51,7 @@ if (/Gabo/i.test(query)){
             
   else if (gaborandom <= 0.7) {
   trait=" Unexpected Identifier. pcrowDerp ";
+  end=" uhh.. wha-? ";
   }
             
 }
