@@ -53,9 +53,16 @@ if (/Gabo/i.test(query)){
   trait=" Unexpected Identifier. pcrowDerp ";
   }
             
-  else {
-  }
+}
+
+if (/Bryce/i.test(query)){
             
+  brycerandom = Math.random();
+            
+  if (brycerandom <= 0.5) {
+  end=" Remember, you're invincible and you can kill everything you touch lycelChaos "+cool[Math.floor(Math.random()*cool.length)];
+  }
+  
 }
 
 
