@@ -32,7 +32,7 @@ if (/^chat$/i.test(query)) {
   trait=" cuties? ";
 }
 
-if (/^EnC$/i.test(query)) {
+if (/^EnC$|and/i.test(query)) {
   middle=" are hecking ";
   trait=" cuties? ";
 }
