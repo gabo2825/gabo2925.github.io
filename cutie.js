@@ -27,6 +27,16 @@ trait=" cutie? ";
 end=" I bet ya didn't! "+cool[Math.floor(Math.random()*cool.length)];
 
 
+if (/^chat$/i.test(query)){
+  middle=" is full of ";
+  trait=" cuties? ";
+}
+
+if (/^EnC$/i.test(query)){
+  middle=" are hecking ";
+  trait=" cuties? ";
+}
+
 if (/^Kae$/i.test(query)){
       
   kaerandom1 = Math.random();
@@ -101,8 +111,6 @@ if (/^Kat$|^robin$/i.test(query)){
     }
               
   }
- 
-            
   
 }
 
