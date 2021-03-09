@@ -36,7 +36,7 @@ if (/Kae/i.test(query)){
   trait=" cute lil' flower? maizBlush ";
   }
             
-  if (kaerandom <= 0.66) {
+  else if (kaerandom <= 0.66) {
   trait=" Zelda PRO PLAYER??!! ";
   }
   
