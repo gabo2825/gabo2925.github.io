@@ -27,12 +27,12 @@ trait=" cutie? ";
 end=" I bet ya didn't! "+cool[Math.floor(Math.random()*cool.length)];
 
 
-if (/^chat$/i.test(query)){
+if (/^chat$/i.test(query)) {
   middle=" is full of ";
   trait=" cuties? ";
 }
 
-if (/^EnC$/i.test(query)){
+if (/^EnC$/i.test(query)) {
   middle=" are hecking ";
   trait=" cuties? ";
 }
@@ -64,6 +64,7 @@ if (/^Gabo$/i.test(query)){
             
   if (gaborandom <= 0.3) {
   trait=" sleep deprived child? maizCoffee ";
+  end=" Go to sleep, Gabo!! "+cool[Math.floor(Math.random()*cool.length)];
   }
   
   else if (gaborandom <= 0.6) {
