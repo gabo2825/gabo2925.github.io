@@ -43,7 +43,7 @@ if (/Kae/i.test(query)){
   }
             
   else if (kaerandom2 <= 0.66) {
-  trait=" Zelda PRO PLAYER??!! ";
+  trait=" PRO ZELDA PLAYER??!! ";
   }
   
 }
