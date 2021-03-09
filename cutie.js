@@ -24,7 +24,7 @@ const cry=[' kaestr1Cry    ',
 start=" Did y'all know ";
 middle=" is a hecking ";
 trait=" cutie? ";
-end=" I bet ya didn't "+cool[Math.floor(Math.random()*cool.length)];
+end=" I bet ya didn't! "+cool[Math.floor(Math.random()*cool.length)];
 
 
 if(/Kae/i.test(query)){
