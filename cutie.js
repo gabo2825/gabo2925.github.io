@@ -32,9 +32,15 @@ if (/Kae/i.test(query)){
 }
 
 if (/Gabo/i.test(query)){
+   
+  gaborandom = Math.random()
             
-  if (Math.random() <= 1) {
+  if (gaborandom <= 0.3) {
   trait=" sleep deprived child? maizCoffee ";
+  }
+  
+  else if (gaborandom <= 0.6) {
+  trait=" typo generator? smolLUL ";
   }
             
 }
