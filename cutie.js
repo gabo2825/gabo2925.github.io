@@ -27,12 +27,20 @@ trait=" cutie? ";
 end=" I bet ya didn't! "+cool[Math.floor(Math.random()*cool.length)];
 
 
-if(/Kae/i.test(query)){
+if (/Kae/i.test(query)){
   trait=" cute lil' flower? maizBlush ";
 }
 
+if (/Gabo/i.test(query)){
+            
+  if (Math.random() <= 1) {
+  trait=" sleep deprived child? maizCoffee ";
+  }
+            
+}
 
-if(query.length==0) {
+
+if (query.length==0) {
   query=' no one ';
   end=cry[Math.floor(Math.random()*cry.length)]+" whyyyy? "+cry[Math.floor(Math.random()*cry.length)];
 }
