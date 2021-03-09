@@ -52,12 +52,17 @@ if (/Gabo/i.test(query)){
   else if (gaborandom <= 0.7) {
   final=" Unexpected Identifier. (test) ";
   final;
-  return;
+  stop=true
   }
             
 }
 
+if (stop==true) {
+}
 
+else {
+
+            
 if (query.length==0) {
   query=' no one ';
   end=cry[Math.floor(Math.random()*cry.length)]+" whyyyy? "+cry[Math.floor(Math.random()*cry.length)];
@@ -66,3 +71,6 @@ if (query.length==0) {
 
 final=start+query+middle+trait+end;
 final;
+
+            
+}
