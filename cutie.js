@@ -71,7 +71,7 @@ if (/^Bryce$/i.test(query)){
             
   brycerandom = Math.random();
             
-  if (brycerandom <= 0.5) {
+  if (brycerandom <= 0.6) {
   end=" lycelW Remember, you're invincible and you can kill everything you touch lycelChaos "+cool[Math.floor(Math.random()*cool.length)];
   }
   
@@ -80,23 +80,29 @@ if (/^Bryce$/i.test(query)){
 if (/^Kat$|^robin$/i.test(query)){
             
   katrandom1 = Math.random();
-       
-  if (katrandom1 <= 0.7) {
-  end=" That's so freaking cool! "+cool[Math.floor(Math.random()*cool.length)];
-  }
             
-            
-  katrandom2 = Math.random();
-            
-  if (katrandom2 <= 0.35) {
+  if (katrandom1 <= 0.35) {
   middle=" is a ";
   trait=" KART RACER??!! smolWow ";
   }
             
-  if (katrandom2 <= 0.7) {
+  else if (katrandom1 <= 0.7) {
   middle=" plays ";
   trait=" rugby?! cjyaPog ";
   }
+  
+  
+  if (katrandom1 <= 0.7) {
+              
+    katrandom2 = Math.random();
+       
+    if (katrandom2 <= 0.8) {
+    end=" That's so freaking cool! "+cool[Math.floor(Math.random()*cool.length)];
+    }
+              
+  }
+ 
+            
   
 }
 
