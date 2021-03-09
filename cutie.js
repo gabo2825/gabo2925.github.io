@@ -33,7 +33,7 @@ if (/Kae/i.test(query)){
 
 if (/Gabo/i.test(query)){
    
-  gaborandom = Math.random()
+  gaborandom = Math.random();
             
   if (gaborandom <= 0.3) {
   trait=" sleep deprived child? maizCoffee ";
