@@ -1,16 +1,16 @@
 
-const happy=['  kaestr1Cool    ',
-             '  kaestr1Hug     ',
-             '  maizCool       ',
-             '  abbybaCool     ',
-             '  smolCool       ',
-             '  lycelCool      ',
-             '  lycelYes       ',
-             '  therea1896Cool ',
-             '  smolCheese     ',
-             '  abbybaHug      ',
-             '  elizab34Uwu    ',
-             '  pcrowHug       '];
+const cool=['  kaestr1Cool    ',
+            '  kaestr1Hug     ',
+            '  maizCool       ',
+            '  abbybaCool     ',
+            '  smolCool       ',
+            '  lycelCool      ',
+            '  lycelYes       ',
+            '  therea1896Cool ',
+            '  smolCheese     ',
+            '  abbybaHug      ',
+            '  elizab34Uwu    ',
+            '  pcrowHug       '];
 
 const cry=[' kaestr1Cry    ',
            ' elizab34Hands ',
@@ -23,8 +23,8 @@ const cry=[' kaestr1Cry    ',
 
 start=" Did y'all know ";
 middle=" is a kecking ";
-trait=" cutie ";
-end=" I bet ya didn't "+emote[Math.floor(Math.random()*emote.length)];
+trait=" cutie? ";
+end=" I bet ya didn't "+cool[Math.floor(Math.random()*cool.length)];
 
 
 if(/Kae/i.test(query)){
@@ -33,11 +33,8 @@ if(/Kae/i.test(query)){
 
 
 if(query.length==0) {
-  query+=' no one ';
-}
-
-else {
-  o+=query;	end=" I bet ya didnt! "+emote[Math.floor(Math.random()*emote.length)];
+  query=' no one ';
+  end=cry[Math.floor(Math.random()*cry.length)]+" whyyyy? "+cry[Math.floor(Math.random()*cry.length)];
 }
 
 
