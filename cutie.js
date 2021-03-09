@@ -30,9 +30,14 @@ end=" I bet ya didn't! "+cool[Math.floor(Math.random()*cool.length)];
 if (/Kae/i.test(query)){
             
   kaerandom = Math.random();
+  end=" kaestr1Cool hell yeah! "+cool[Math.floor(Math.random()*cool.length)];
             
-  if (kaerandom <= 0.5) {
+  if (kaerandom <= 0.33) {
   trait=" cute lil' flower? maizBlush ";
+  }
+            
+  if (kaerandom <= 0.66) {
+  trait=" Zelda PRO PLAYER??!! ";
   }
   
 }
