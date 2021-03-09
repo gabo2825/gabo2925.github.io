@@ -39,7 +39,7 @@ if (/Gabo/i.test(query)){
   trait=" sleep deprived child? maizCoffee ";
   }
   
-  else if (gaborandom <= 0.6) {
+  else (gaborandom <= 0.6) {
   trait=" typo generator? smolLUL ";
   }
             
