@@ -79,12 +79,23 @@ if (/^Bryce$/i.test(query)){
 
 if (/^Kat$|^robin$/i.test(query)){
             
-  katrandom = Math.random();
+  katrandom1 = Math.random();
+       
+  if (katrandom1 <= 0.7) {
+  end=" That's so freaking cool! "+cool[Math.floor(Math.random()*cool.length)];
+  }
             
-  if (katrandom <= 0.7) {
+            
+  katrandom2 = Math.random();
+            
+  if (katrandom2 <= 0.35) {
   middle=" is a ";
   trait=" KART RACER??!! smolWow ";
-  end=" That's so freaking cool! "+cool[Math.floor(Math.random()*cool.length)];
+  }
+            
+  if (katrandom2 <= 0.7) {
+  middle=" plays ";
+  trait=" rugby?! cjyaPog ";
   }
   
 }
