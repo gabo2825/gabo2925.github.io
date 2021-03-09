@@ -13,10 +13,28 @@ const cheese=['  kaestr1Cool    ',
               '  pcrowHug       '];
 
 o="Did y'all know ";
+
 end=" smolHands whyyy??";
-if(query.length==0){o+='no one';}
-else{	o+=query;	end=' I bet ya didnt! '+cheese[Math.floor(Math.random()*cheese.length)];}
+
+
+if(query.length==0) {
+  o+='no one';
+}
+
+else {
+  o+=query;	end=' I bet ya didnt! '+cheese[Math.floor(Math.random()*cheese.length)];
+}
+
+
 o+=" is a hecking "; 
-if(/Kae/i.test(query)){	o+='cute lil flower maizBlush ??';}
-else{	o+='cutie??';}
-o+=end;o;
+
+if(/Kae/i.test(query)){
+  o+='cute lil flower maizBlush ??';
+}
+
+else{
+  o+='cutie??';
+}
+
+o+=end;
+o;
