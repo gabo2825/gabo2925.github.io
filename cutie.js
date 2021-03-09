@@ -27,7 +27,7 @@ trait=" cutie? ";
 end=" I bet ya didn't! "+cool[Math.floor(Math.random()*cool.length)];
 
 
-if (/Kae/i.test(query)){
+if (/^Kae$/i.test(query)){
       
   kaerandom1 = Math.random();
        
@@ -48,7 +48,7 @@ if (/Kae/i.test(query)){
   
 }
 
-if (/Gabo/i.test(query)){
+if (/^Gabo$/i.test(query)){
    
   gaborandom = Math.random();
             
@@ -67,7 +67,7 @@ if (/Gabo/i.test(query)){
             
 }
 
-if (/Bryce/i.test(query)){
+if (/^Bryce$/i.test(query)){
             
   brycerandom = Math.random();
             
@@ -77,7 +77,7 @@ if (/Bryce/i.test(query)){
   
 }
 
-if (/Kat|robin/i.test(query)){
+if (/^Kat$|^robin$/i.test(query)){
             
   katrandom = Math.random();
             
