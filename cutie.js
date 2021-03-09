@@ -19,7 +19,7 @@ const cry=[' kaestr1Cry    ',
            ' abbybaCry     ',
            ' archit3Cry    ',
            ' pcrowCry      ',
-           ' smolCry       ']
+           ' smolCry       '];
 
 start=" Did y'all know ";
 middle=" is a kecking ";
