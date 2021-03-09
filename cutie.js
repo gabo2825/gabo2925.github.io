@@ -28,7 +28,13 @@ end=" I bet ya didn't! "+cool[Math.floor(Math.random()*cool.length)];
 
 
 if (/Kae/i.test(query)){
+            
+  kaerandom = Math.random();
+            
+  if (kaerandom <= 0.5) {
   trait=" cute lil' flower? maizBlush ";
+  }
+  
 }
 
 if (/Gabo/i.test(query)){
@@ -43,7 +49,10 @@ if (/Gabo/i.test(query)){
   trait=" typo generator? smolLUL ";
   }
             
-  else {
+  else if (gaborandom <= 0.7) {
+  final=" Unexpected Identifier. (test) ";
+  final;
+  return;
   }
             
 }
@@ -55,4 +64,5 @@ if (query.length==0) {
 }
 
 
-start+query+middle+trait+end;
+final=start+query+middle+trait+end;
+final;
