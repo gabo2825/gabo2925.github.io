@@ -1,5 +1,5 @@
 
-const cheese=['  kaestr1Cool    ',
+const emote=['  kaestr1Cool    ',
               '  kaestr1Hug     ',
               '  maizCool       ',
               '  abbybaCool     ',
@@ -12,9 +12,10 @@ const cheese=['  kaestr1Cool    ',
               '  elizab34Uwu    ',
               '  pcrowHug       '];
 
-o="Did y'all know ";
-
-end=" smolHands whyyy??";
+start=" Did y'all know ";
+middle=" is a kecking ";
+trait=" cutie ";
+end=" I bed ya didn't "+emote[Math.floor(Math.random()*emote.length)];
 
 
 if(query.length==0) {
@@ -22,14 +23,14 @@ if(query.length==0) {
 }
 
 else {
-  o+=query;	end=' I bet ya didnt! '+cheese[Math.floor(Math.random()*cheese.length)];
+  o+=query;	end=" I bet ya didnt! "+emote[Math.floor(Math.random()*emote.length)];
 }
 
 
 o+=" is a hecking "; 
 
 if(/Kae/i.test(query)){
-  o+='cute lil flower maizBlush ??';
+  trait=" cute lil' flower? maizBlush ";
 }
 
 else{
