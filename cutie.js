@@ -52,12 +52,12 @@ if (/Gabo/i.test(query)){
   else if (gaborandom <= 0.7) {
   final=" Unexpected Identifier. (test) ";
   final;
-  boolean stop=true;
+  stop="true";
   }
             
 }
 
-if (stop==true) {
+if (/true/i.test(stop)) {
 }
 
 else {
