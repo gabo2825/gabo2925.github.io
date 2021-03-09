@@ -15,7 +15,7 @@ const cheese=['  kaestr1Cool    ',
 o="Did y'all know ";
 end=" smolHands whyyy??";
 if(query.length==0){o+='no one';}
-else{	o+=query;	end=' I bet ya didnt! '+chz[Math.floor(Math.random()*chz.length)];}
+else{	o+=query;	end=' I bet ya didnt! '+cheese[Math.floor(Math.random()*cheese.length)];}
 o+=" is a hecking "; 
 if(/Kae/i.test(query)){	o+='cute lil flower maizBlush ??';}
 else{	o+='cutie??';}
