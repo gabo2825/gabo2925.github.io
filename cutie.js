@@ -77,7 +77,7 @@ if (/Bryce/i.test(query)){
   
 }
 
-if (/Kat/i.test(query)||/robin/i.test(query)){
+if (/Kat|robin/i.test(query)){
             
   katrandom = Math.random();
             
