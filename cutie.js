@@ -77,6 +77,18 @@ if (/Bryce/i.test(query)){
   
 }
 
+if (/Kat/i.test(query)||/robin/i.test(query)){
+            
+  katrandom = Math.random();
+            
+  if (katrandom <= 0.7) {
+  middle=" is a ";
+  trait=" KART RACER??!! smolWow ";
+  end=" That's so freaking cool! "+cool[Math.floor(Math.random()*cool.length)];
+  }
+  
+}
+
 
             
 if (query.length==0) {
