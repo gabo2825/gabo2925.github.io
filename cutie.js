@@ -10,7 +10,8 @@ const cool=['  kaestr1Cool    ',
             '  smolCheese     ',
             '  abbybaHug      ',
             '  elizab34Uwu    ',
-            '  pcrowHug       '];
+            '  pcrowHug       ',
+            '  lycelLuvsign   '];
 
 const cry=[' kaestr1Cry    ',
            ' elizab34Hands ',
@@ -20,6 +21,22 @@ const cry=[' kaestr1Cry    ',
            ' archit3Cry    ',
            ' pcrowCry      ',
            ' smolCry       '];
+
+const omg=[' smolWow     ',
+           ' pcrowWow    ',
+           ' smolD       ',
+           ' bryce4Eyes  ',
+           ' lycelW      ',
+           ' lycelAAA    ',
+           ' smolBrain   ',
+           ' pcrowBrain  ',
+           ' cjyaPog     ',
+           ' kaestr1Eyes ',
+           ' maizEyes    ',
+           ' maizBlush   ',
+           ' bbytesWut   ',
+           ' abibeaLurk  ',
+           ' elizab34Pog '];
 
 start=" Did y'all know ";
 middle=" is a hecking ";
@@ -53,12 +70,12 @@ if (/^Kae$/i.test(query)){
   }
             
   else if (kaerandom2 <= 0.60) {
-  trait=" PRO ZELDA PLAYER??!! ";
+  trait=" PRO ZELDA PLAYER??!! "+omg[Math.floor(Math.random()*omg.length)];
   }
             
   else if (kaerandom2 <= 0.80) {
   middle=" is hecking ";
-  trait=" cool? "+cool[Math.floor(Math.random()*cool.length)];
+  trait=" cool? "+omg[Math.floor(Math.random()*omg.length)];
   }
   
 }
@@ -88,7 +105,7 @@ if (/^Bryce$/i.test(query)){
   brycerandom = Math.random();
             
   if (brycerandom <= 0.6) {
-  end=" lycelW Remember, you're invincible and you can kill everything you touch lycelChaos "+cool[Math.floor(Math.random()*cool.length)];
+  end=omg[Math.floor(Math.random()*omg.length)]+" Remember, you're invincible and you can kill everything you touch lycelChaos "+cool[Math.floor(Math.random()*cool.length)];
   }
   
 }
@@ -99,12 +116,12 @@ if (/^Kat$|^robin$/i.test(query)){
             
   if (katrandom1 <= 0.35) {
   middle=" is a ";
-  trait=" KART RACER??!! smolWow ";
+  trait=" KART RACER??!! smolWow "+omg[Math.floor(Math.random()*omg.length)];
   }
             
   else if (katrandom1 <= 0.7) {
   middle=" plays ";
-  trait=" rugby?! cjyaPog ";
+  trait=" rugby?! "+omg[Math.floor(Math.random()*omg.length)];
   }
   
   
