@@ -42,7 +42,7 @@ if (/^Kae$/i.test(query)){
   kaerandom1 = Math.random();
        
   if (kaerandom1 <= 0.60) {
-  end=" kaestr1Cool hell yeah! "+cool[Math.floor(Math.random()*cool.length)];
+  end=" hell yeah! "+cool[Math.floor(Math.random()*cool.length)];
   }
             
             
