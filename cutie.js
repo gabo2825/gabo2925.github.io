@@ -48,12 +48,17 @@ if (/^Kae$/i.test(query)){
             
   kaerandom2 = Math.random();
             
-  if (kaerandom2 <= 0.33) {
+  if (kaerandom2 <= 0.30) {
   trait=" cute lil' flower? maizBlush ";
   }
             
-  else if (kaerandom2 <= 0.66) {
+  else if (kaerandom2 <= 0.60) {
   trait=" PRO ZELDA PLAYER??!! ";
+  }
+            
+  else if (kaerandom2 <= 0.80) {
+  middle=" is hecking ";
+  trait=" cool? "+cool[Math.floor(Math.random()*cool.length)];
   }
   
 }
