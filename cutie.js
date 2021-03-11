@@ -58,7 +58,7 @@ else {
             trait=" cuties? ";
             }         
     
-      if (/^EnC$|and/i.test(query)) {
+      if (/^EnC$|\sand\s/i.test(query)) {
           middle=" are hecking ";
           trait=" cuties? ";
           }
