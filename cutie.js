@@ -44,9 +44,26 @@ trait=" cutie? ";
 end=" I bet ya didn't! "+cool[Math.floor(Math.random()*cool.length)];
 
 
-if (/^chat$|early gang/i.test(query)) {
+if (/^chat$/i.test(query)) {
   middle=" is full of ";
   trait=" cuties? ";
+}
+
+if (/^gang$/i.test(query)) {
+            
+  if (/^poop$/i.test(query)) {
+  start=" No, "
+  query=user
+  middle=" that's not "  
+  trait=" cute "
+  end=cry[Math.floor(Math.random()*cry.length)]
+  }
+            
+  else {
+  middle=" is full of ";
+  trait=" cuties? ";
+  }     
+            
 }
 
 if (/^EnC$|and/i.test(query)) {
