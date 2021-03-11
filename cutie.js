@@ -43,7 +43,7 @@ middle=" is a hecking ";
 trait=" cutie? ";
 end=" I bet ya didn't! "+cool[Math.floor(Math.random()*cool.length)];
 
-if (/poop/i.test(query)) {
+if (/^poop$/i.test(query)) {
     start=" No, ";
     query=user;
     middle=" that's not "; 
@@ -53,12 +53,12 @@ if (/poop/i.test(query)) {
 
 else {
 
-    if (/^chat$|gang/i.test(query)) {
+    if (/^chat$|^gang$/i.test(query)) {
         middle=" is full of ";
         trait=" cuties? ";
         }         
     
-    if (/^EnC$|and/i.test(query)) {
+    if (/^EnC$|^and$/i.test(query)) {
         middle=" are hecking ";
         trait=" cuties? ";
         }
