@@ -44,7 +44,7 @@ trait=" cutie? ";
 end=" I bet ya didn't! "+cool[Math.floor(Math.random()*cool.length)];
 
 
-if (/^chat$/i.test(query)) {
+if (/^chat$|early gang/i.test(query)) {
   middle=" is full of ";
   trait=" cuties? ";
 }
