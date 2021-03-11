@@ -62,15 +62,15 @@ else {
 
     else {
 
-            if (/^chat$|mods$|gang$/i.test(query)) {
-                middle=" is full of ";
-                trait=" cuties? ";
-                }         
+        if (/^chat$|mods$|gang$/i.test(query)) {
+            middle=" is full of ";
+            trait=" cuties? ";
+            }         
     
-          if (/^EnC$|\sand\s/i.test(query)) {
-              middle=" are hecking ";
-              trait=" cuties? ";
-              }
+        if (/^EnC$|\sand\s/i.test(query)) {
+            middle=" are hecking ";
+            trait=" cuties? ";
+            }
 
         if (/^Kae$/i.test(query)){
       
