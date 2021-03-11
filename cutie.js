@@ -163,6 +163,6 @@ if (query.length==0) {
 
 
 final=start+query+middle+trait+end;
-final;
+final
 
             
