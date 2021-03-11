@@ -52,11 +52,11 @@ if (/^chat$/i.test(query)) {
 if (/^gang$/i.test(query)) {
             
   if (/^poop$/i.test(query)) {
-  start=" No, "
-  query=user
-  middle=" that's not "  
-  trait=" cute "
-  end=cry[Math.floor(Math.random()*cry.length)]
+  start=" No, ";
+  query=user;
+  middle=" that's not "; 
+  trait=" cute ";
+  end=cry[Math.floor(Math.random()*cry.length)];
   }
             
   else {
