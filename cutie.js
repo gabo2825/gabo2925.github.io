@@ -43,7 +43,7 @@ middle=" is a hecking ";
 trait=" cutie? ";
 end=" I bet ya didn't! "+cool[Math.floor(Math.random()*cool.length)];
 
-if (/\bpoop\b|feces|shit|testbadword/i.test(query)) {
+if (/\bpoop\b|feces|fecal|shit|testbadword/i.test(query)) {
     start=" No, ";
     query=user;
     middle=" that's not "; 
