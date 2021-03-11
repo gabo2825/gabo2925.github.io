@@ -53,7 +53,7 @@ if (/\bpoop\b|feces|fecal|shit|testbadword/i.test(query)) {
 
 else {
 
-        if (/^chat$|gang$/i.test(query)) {
+        if (/^chat$|mods$|gang$/i.test(query)) {
             middle=" is full of ";
             trait=" cuties? ";
             }         
