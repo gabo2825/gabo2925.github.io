@@ -65,35 +65,35 @@ else {
         if (/^chat$|mods$|gang$/i.test(query)) {
             middle=" is full of ";
             trait=" cuties? ";
-            }         
+        }         
     
         if (/^EnC$|\sand\s/i.test(query)) {
             middle=" are hecking ";
             trait=" cuties? ";
-            }
+        }
 
         if (/^Kae$/i.test(query)){
       
             kaerandom1 = Math.random();
        
             if (kaerandom1 <= 0.60) {
-            end=" hell yeah! "+cool[Math.floor(Math.random()*cool.length)];
+                end=" hell yeah! "+cool[Math.floor(Math.random()*cool.length)];
             }
             
             
             kaerandom2 = Math.random();
             
             if (kaerandom2 <= 0.30) {
-            trait=" cute lil' flower? maizBlush ";
+                trait=" cute lil' flower? maizBlush ";
             }
             
             else if (kaerandom2 <= 0.60) {
-            trait=" PRO ZELDA PLAYER??!! "+omg[Math.floor(Math.random()*omg.length)];
+                trait=" PRO ZELDA PLAYER??!! "+omg[Math.floor(Math.random()*omg.length)];
             }
                 
             else if (kaerandom2 <= 0.80) {
-            middle=" is hecking ";
-            trait=" cool? "+omg[Math.floor(Math.random()*omg.length)];
+                middle=" is hecking ";
+                trait=" cool? "+omg[Math.floor(Math.random()*omg.length)];
             }
   
         }
@@ -103,17 +103,17 @@ else {
             gaborandom = Math.random();
             
             if (gaborandom <= 0.3) {
-            trait=" sleep deprived child? maizCoffee ";
-            end=" Go to sleep, Gabo!! "+cool[Math.floor(Math.random()*cool.length)];
+                trait=" sleep deprived child? maizCoffee ";
+                end=" Go to sleep, Gabo!! "+cool[Math.floor(Math.random()*cool.length)];
             }
   
             else if (gaborandom <= 0.6) {
-            trait=" typo generator? smolLUL ";
+                trait=" typo generator? smolLUL ";
             }
             
             else if (gaborandom <= 0.7) {
-            trait=" Unexpected Identifier. pcrowDerp ";
-            end=" uhh.. wha-? ";
+                trait=" Unexpected Identifier. pcrowDerp ";
+                end=" uhh.. wha-? ";
             }
                 
         }
@@ -123,33 +123,33 @@ else {
             brycerandom = Math.random();
             
             if (brycerandom <= 0.6) {
-            end=omg[Math.floor(Math.random()*omg.length)]+" Remember, you're invincible and you can kill everything you touch lycelChaos "+cool[Math.floor(Math.random()*cool.length)];
+                end=omg[Math.floor(Math.random()*omg.length)]+" Remember, you're invincible and you can kill everything you touch lycelChaos "+cool[Math.floor(Math.random()*cool.length)];
             }
   
         }
 
         if (/^Kat$|^robin$/i.test(query)){
             
-        katrandom1 = Math.random();
+            katrandom1 = Math.random();
             
             if (katrandom1 <= 0.35) {
-            middle=" is a ";
-            trait=" KART RACER??!! smolWow "+omg[Math.floor(Math.random()*omg.length)];
+                middle=" is a ";
+                trait=" KART RACER??!! smolWow "+omg[Math.floor(Math.random()*omg.length)];
             }
             
             else if (katrandom1 <= 0.7) {
-            middle=" plays ";
-            trait=" rugby?! "+omg[Math.floor(Math.random()*omg.length)];
+                middle=" plays ";
+                trait=" rugby?! "+omg[Math.floor(Math.random()*omg.length)];
             }
       
   
             if (katrandom1 <= 0.7) {
                   
-              katrandom2 = Math.random();
+                katrandom2 = Math.random();
        
-              if (katrandom2 <= 0.8) {
-              end=" That's so freaking cool! "+cool[Math.floor(Math.random()*cool.length)];
-              }
+                if (katrandom2 <= 0.8) {
+                    end=" That's so freaking cool! "+cool[Math.floor(Math.random()*cool.length)];
+                }
               
             }
   
