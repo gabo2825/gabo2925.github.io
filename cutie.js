@@ -198,8 +198,12 @@ else {
 }       
 
 
-
 final=start+query+middle+trait+end;
+
+if (/^version$/i.test(query)){
+    final=" Last updated march 11th 2021 at 21:01 EST. "
+}
+
 final
 
             
