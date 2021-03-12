@@ -135,10 +135,8 @@ else {
             if (mattrandom1 <= 0.6) {
                 middle=" carried a Smant raid ";
                 trait=" ON HIS OWN?? "+omg[Math.floor(Math.random()*omg.length)];
-            }
-                    
-            if (mattrandom1 <= 0.6) {
                   
+                        
                 mattrandom2 = Math.random();
        
                 if (mattrandom2 <= 0.75) {
