@@ -144,6 +144,8 @@ else {
                 if (mattrandom2 <= 0.75) {
                     end=" That's so freaking cool! "+cool[Math.floor(Math.random()*cool.length)];
                 }
+                        
+            }
   
         }
 
