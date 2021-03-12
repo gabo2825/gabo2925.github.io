@@ -127,6 +127,25 @@ else {
             }
   
         }
+                
+        if (/^matt$/i.test(query)){
+            
+            mattrandom1 = Math.random();
+            
+            if (mattrandom1 <= 0.6) {
+                middle=" carried a Smant raid ";
+                trait=" ON HIS OWN?? "+omg[Math.floor(Math.random()*omg.length)];
+            }
+                    
+            if (mattrandom1 <= 0.6) {
+                  
+                mattrandom2 = Math.random();
+       
+                if (mattrandom2 <= 0.75) {
+                    end=" That's so freaking cool! "+cool[Math.floor(Math.random()*cool.length)];
+                }
+  
+        }
 
         if (/^Kat$|^robin$/i.test(query)){
             
