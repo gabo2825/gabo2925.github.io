@@ -146,6 +146,25 @@ else {
             }
   
         }
+                
+        if (/^Gem$|^Gemhunter$/i.test(query)){
+            
+            gemrandom1 = Math.random();
+            
+            if (gemrandom1 <= 0.6) {
+                middle=" makes ";
+                trait=" ART?? "+omg[Math.floor(Math.random()*omg.length)];
+                  
+                        
+                gemrandom2 = Math.random();
+       
+                if (gemrandom2 <= 0.75) {
+                    end=" That's so freaking cool! "+cool[Math.floor(Math.random()*cool.length)];
+                }
+                        
+            }
+  
+        }
 
         if (/^Kat$|^robin$/i.test(query)){
             
