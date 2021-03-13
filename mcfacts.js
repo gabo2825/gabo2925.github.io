@@ -22,10 +22,10 @@ start=" Did you know ";
 fact=facts[Math.floor(Math.random()*facts.length)];
 emote=omg[Math.floor(Math.random()*omg.length)];
 
-final=start+middle+emote;
+final=start+fact+emote;
 
 if (/^version$|^v$/i.test(query)) {
-    final=" Last updated March 12 2021 at 22:05 EST. ";
+    final=" Last updated March 12 2021 at 22:08 EST. ";
 }
 
 final
