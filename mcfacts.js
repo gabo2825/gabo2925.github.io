@@ -4,14 +4,12 @@ const facts=[" Minecraft is a SANDBOX GAME??                                    
              " Minecraft is a game where players can CREATE, TRANSFORM, AND DESTROY their SURROUNDINGS??                                 ",
              " Mojang is a Swedish video game developer founded in the year 2009??                                                       ",
              " Mojang released the game Minecraft in the year 2011??                                                                     ",
-             " Markus Persson (Swedish video game developer) CREATED Minecraft??                                                         ",
              " Minecraft is one of the MEST SELLING GAMES OF ALL TIME??                                                                  ",
              " Microsoft purchased Minecraft in 2014??                                                                                   ",
              " Microsoft bought Minecraft at a hefty price tag of $2.5 BILLION??                                                         ",
              " Minecraft is a PIXELATED VIDEO GAME?? In other words, IT LOOKS LIKE A LEGO WORLD?????                                     ",
              " players of Minecraft can look and discover tools inside the game such as craft tools to create their building structure?? ",
              " players of Minecraft can choose to play survival mode or creative mode??                                                  ",
-             " Markus Persson (creator of Minecraft) won the BAFTA Games Special Award in 2012??                                         ",
              " Minecraft won the Best Family and Social Game Award in 2015??                                                             ",
              " Minecraft won the Kid’s Choice Award for Video Games in 2015??                                                            ",
              " Minecraft won the Best Independent Game Award in 2011??                                                                   ",
@@ -161,7 +159,7 @@ if (Math.random() <= 0.5) {
 final=start+fact+emote+end;
 
 if (/^version$|^v$/i.test(query)) {
-    final=" Last updated March 12 2021 at 23:01 EST. ";
+    final=" Last updated March 13 2021 at 00:05 EST. ";
 }
 
 final
