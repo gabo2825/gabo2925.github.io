@@ -1,20 +1,21 @@
 /*facts retrieved from https://facts.net/lifestyle/entertainment/minecraft-facts/*/
-const facts=[" Minecraft is a sandbox game?? ",
-             " Minecraft is a game where players can create, transform, or destroy their surroundings?? ",
+const facts=[" Minecraft is a SANDBOX GAME?? ",
+             " Minecraft is a game where players can CREATE, TRANSFORM, AND DESTROY their SURROUNDINGS?? ",
              " Mojang is a Swedish video game developer founded in the year 2009?? ",
              " Mojang released the game Minecraft in the year 2011?? ",
-             " Markus Persson (Swedish video game developer) created Minecraft?? ",
-             " The survival mode is one of the main modes in Minecraft?? ",
-             " The creative mode gives players freedom?? ",
-             " There are 107 Minecraft achievements in the game?? ",
-             ' The "blocks" are used to create building structures?? ',
-             " The Hostile Mobs of Minecraft are the main antagonist?? ",];
+             " Markus Persson (Swedish video game developer) CREATED Minecraft?? ",
+             " The survival mode is ONE OF THE MAIN MODES IN MINECRAFT?? ",
+             " The creative mode GIVES PLAYERS FREEDOM?? ",
+             " THERE ARE 107 MINECRAFT ACHIEVEMENTS IN THE GAME?? ",
+             ' The "blocks" are used to CREATE BUILDING STRUCTIRES?? ',
+             " The Hostile Mobs of Minecraft ARE THE MAIN ANTAGONISTS?? ",];
 
 const didntknow=[" Well I didn't!! ",
                  " HUHH?? I DIDN?T KNOW THAT!! ",
                  " REALLY?? ",
                  " You're being serious, right?? ",
-                 " Yes?? AND YOU DIDN'T TELL ME?? "];
+                 " Yes?? AND YOU DIDN'T TELL ME?? ",
+                 " OMG YOU SHOULD'VE TOLD ME!! "];
 
 const omg=[' smolWow     ',
            ' pcrowWow    ',
@@ -47,7 +48,7 @@ if (Math.random() <= 0.5) {
 final=start+fact+emote+end;
 
 if (/^version$|^v$/i.test(query)) {
-    final=" Last updated March 12 2021 at 22:24 EST. ";
+    final=" Last updated March 12 2021 at 22:32 EST. ";
 }
 
 final
