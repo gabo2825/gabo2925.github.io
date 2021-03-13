@@ -2,7 +2,7 @@ const facts=[" test1 ",
              " test2 "];
 
 start=" Did you know ";
-middle=facts[Math.floor(Math.random()facts.length)];
+middle=facts[Math.floor(Math.random()*facts.length)];
 
 final=start+middle;
 
