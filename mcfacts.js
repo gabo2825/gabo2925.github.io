@@ -96,7 +96,7 @@ const facts=[" Minecraft is a SANDBOX GAME??                                    
              " a Piston can't push obsidian or bedrock blocks??                                                                          ",
              " crouching can lower the chance of poisoning??                                                                             ",
              " drinking milk or honey bottle can cure the poison??                                                                       ",
-             " here are the different purposes of campfire, furnace, and smoker??                                                        ",
+             " there are different purposes for campfire, furnace, and smoker??                                                        ",
              " Minecraft improved the aesthetics of the cow??                                                                            ",
              " when fighting, critical hits come from falling??                                                                          ",
              ' crafting table was once called "workbench"??                                                                              ',
@@ -154,7 +154,7 @@ if (Math.random() <= 0.5) {
 final=start+fact+emote+end;
 
 if (/^version$|^v$/i.test(query)) {
-    final=" Last updated March 13 2021 at 00:40 EST. ";
+    final=" Last updated March 13 2021 at 00:41 EST. ";
 }
 
 final
