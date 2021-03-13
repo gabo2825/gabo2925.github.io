@@ -1,6 +1,14 @@
+/*facts retrieved from https://facts.net/lifestyle/entertainment/minecraft-facts/*/
 const facts=[" Minecraft is a sandbox game?? ",
-             " Minecraft is a sandbox game?? ",
-             " Minecraft is a sandbox game?? "];
+             " Minecraft is a game where players can create, transform, or destroy their surroundings?? ",
+             " Mojang is a Swedish video game developer founded in the year 2009?? ",
+             " Mojang released the game Minecraft in the year 2011?? ",
+             " Markus Persson (Swedish video game developer) created Minecraft?? ",
+             " The survival mode is one of the main modes in Minecraft?? ",
+             " The creative mode gives players freedom?? ",
+             " There are 107 Minecraft achievements in the game?? ",
+             ' The "blocks" are used to create building structures?? ',
+             " The Hostile Mobs of Minecraft are the main antagonist?? ",];
 
 const omg=[' smolWow     ',
            ' pcrowWow    ',
@@ -22,10 +30,12 @@ start=" Did you know ";
 fact=facts[Math.floor(Math.random()*facts.length)];
 emote=omg[Math.floor(Math.random()*omg.length)];
 
-final=start+fact+emote;
+end="  ";
+
+final=start+fact+emote+end;
 
 if (/^version$|^v$/i.test(query)) {
-    final=" Last updated March 12 2021 at 22:08 EST. ";
+    final=" Last updated March 12 2021 at 22:17 EST. ";
 }
 
 final
