@@ -10,6 +10,12 @@ const facts=[" Minecraft is a sandbox game?? ",
              ' The "blocks" are used to create building structures?? ',
              " The Hostile Mobs of Minecraft are the main antagonist?? ",];
 
+const didntknow=[" Well I didn't!! ",
+                 " HUHH?? I DIDN?T KNOW THAT!! ",
+                 " REALLY?? ",
+                 " You're being serious, right?? ",
+                 " Yes?? AND YOU DIDN'T TELL ME?? "];
+
 const omg=[' smolWow     ',
            ' pcrowWow    ',
            ' smolD       ',
@@ -32,10 +38,16 @@ emote=omg[Math.floor(Math.random()*omg.length)];
 
 end="  ";
 
+
+if (Math.random() <= 0.5) {
+    end=didntknow[Math.floor(Math.random()*didntknow.length)]+omg[Math.floor(Math.random()*omg.length)];
+}
+
+
 final=start+fact+emote+end;
 
 if (/^version$|^v$/i.test(query)) {
-    final=" Last updated March 12 2021 at 22:17 EST. ";
+    final=" Last updated March 12 2021 at 22:24 EST. ";
 }
 
 final
