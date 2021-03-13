@@ -115,14 +115,15 @@ const facts=[" Minecraft is a SANDBOX GAME??                                    
              " Cave Game is the first name of Minecraft??                                                                                "];
 
 
-const didntknow=[" Well I didn't!! ",
-                 " HUHH?? I DIDN'T KNOW THAT!! ",
-                 " REALLY?? ",
-                 " You're being serious, right?? ",
+const didntknow=[" Well I didn't!!                ",
+                 " HUHH?? I DIDN'T KNOW THAT!!    ",
+                 " REALLY??                       ",
+                 " You're being serious, right??  ",
                  " Yes?? AND YOU DIDN'T TELL ME?? ",
-                 " OMG YOU SHOULD'VE TOLD ME!! ",
-                 " I am like.. speechless.. ",
-                 " I had no idea! "];
+                 " OMG YOU SHOULD'VE TOLD ME!!    ",
+                 " I am like.. speechless..       ",
+                 " I had no idea!                 ",
+                 " NO WAY!!                       "];
 
 const omg=[' smolWow     ',
            ' pcrowWow    ',
