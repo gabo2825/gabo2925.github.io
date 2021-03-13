@@ -159,7 +159,7 @@ if (Math.random() <= 0.5) {
 final=start+fact+emote+end;
 
 if (/^version$|^v$/i.test(query)) {
-    final=" Last updated March 12 2021 at 22:47 EST. ";
+    final=" Last updated March 12 2021 at 22:51 EST. ";
 }
 
 final
