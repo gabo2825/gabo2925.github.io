@@ -127,7 +127,8 @@ const didntknow=[" Well I didn't!! ",
                  " REALLY?? ",
                  " You're being serious, right?? ",
                  " Yes?? AND YOU DIDN'T TELL ME?? ",
-                 " OMG YOU SHOULD'VE TOLD ME!! "];
+                 " OMG YOU SHOULD'VE TOLD ME!! ",
+                 " I am like.. speechless.. "];
 
 const omg=[' smolWow     ',
            ' pcrowWow    ',
