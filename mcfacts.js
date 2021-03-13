@@ -116,7 +116,7 @@ const facts=[" Minecraft is a SANDBOX GAME??                                    
 
 
 const didntknow=[" Well I didn't!! ",
-                 " HUHH?? I DIDN?T KNOW THAT!! ",
+                 " HUHH?? I DIDN'T KNOW THAT!! ",
                  " REALLY?? ",
                  " You're being serious, right?? ",
                  " Yes?? AND YOU DIDN'T TELL ME?? ",
@@ -154,7 +154,7 @@ if (Math.random() <= 0.5) {
 final=start+fact+emote+end;
 
 if (/^version$|^v$/i.test(query)) {
-    final=" Last updated March 13 2021 at 00:41 EST. ";
+    final=" Last updated March 13 2021 at 00:42 EST. ";
 }
 
 final
