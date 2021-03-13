@@ -1,4 +1,5 @@
 /*facts retrieved from https://facts.net/lifestyle/entertainment/minecraft-facts/*/
+
 const facts=[" Minecraft is a SANDBOX GAME?? ",
              " Minecraft is a game where players can CREATE, TRANSFORM, AND DESTROY their SURROUNDINGS?? ",
              " Mojang is a Swedish video game developer founded in the year 2009?? ",
