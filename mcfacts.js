@@ -1,20 +1,20 @@
 /*facts retrieved from https://facts.net/lifestyle/entertainment/minecraft-facts/*/
 
-const facts=[" Minecraft is a SANDBOX GAME?? ",
-             " Minecraft is a game where players can CREATE, TRANSFORM, AND DESTROY their SURROUNDINGS?? ",
-             " Mojang is a Swedish video game developer founded in the year 2009?? ",
-             " Mojang released the game Minecraft in the year 2011?? ",
-             " Markus Persson (Swedish video game developer) CREATED Minecraft?? ",
-             " Minecraft is one of the best selling video game of all time. ",
-             " Microsoft purchased Minecraft in 2014. ",
-             " Microsoft bought Minecraft at a hefty price tag of $2.5 billion. ",
-             " Minecraft is a pixelated video game. In other words, the game looks like a lego world. ",
-             " Players of Minecraft can look and discover tools inside the game such as craft tools to create their building structure. ",
-             " Players of Minecraft can choose to play survival mode or creative mode. ",
-             " Markus Persson (creator of Minecraft) won the BAFTA Games Special Award in 2012. ",
-             " Minecraft won the Best Family and Social Game Award in 2015. ",
-             " Minecraft won the Kid’s Choice Award for Video Games in 2015. ",
-             " Minecraft won the Best Independent Game Award in 2011. ",
+const facts=[" Minecraft is a SANDBOX GAME??                                                                                                     ",
+             " Minecraft is a game where players can CREATE, TRANSFORM, AND DESTROY their SURROUNDINGS??                                         ",
+             " Mojang is a Swedish video game developer founded in the year 2009??                                                               ",
+             " Mojang released the game Minecraft in the year 2011??                                                                             ",
+             " Markus Persson (Swedish video game developer) CREATED Minecraft??                                                                 ",
+             " Minecraft is one of the MEST SELLING GAMES OF ALL TIME??                                                                          ",
+             " Microsoft purchased Minecraft in 2014??                                                                                           ",
+             " Microsoft bought Minecraft at a hefty price tag of $2.5 BILLION??                                                                 ",
+             " Minecraft is a PIXELATED VIDEO GAME?? In other words, IT LOOKS LIKE A LEGO WORLD?????                                             ",
+             " players of Minecraft can look and discover tools inside the game such as craft tools to create their building structure??         ",
+             " players of Minecraft can choose to play survival mode or creative mode??                                                          ",
+             " Markus Persson (creator of Minecraft) won the BAFTA Games Special Award in 2012??                                                 ",
+             " Minecraft won the Best Family and Social Game Award in 2015??                                                                     ",
+             " Minecraft won the Kid’s Choice Award for Video Games in 2015??                                                                    ",
+             " Minecraft won the Best Independent Game Award in 2011??                                                                           ",
              " To this end, there are two versions of Minecraft that is still being updated, Minecraft Java, the original and Minecraft Bedrock. ",
              " Minecraft is considered one of the most influential games of all time. ",
              " Minecraft used social media such as MineCon to promote the game worldwide. ",
@@ -160,7 +160,7 @@ if (Math.random() <= 0.5) {
 final=start+fact+emote+end;
 
 if (/^version$|^v$/i.test(query)) {
-    final=" Last updated March 12 2021 at 22:51 EST. ";
+    final=" Last updated March 12 2021 at 23:01 EST. ";
 }
 
 final
