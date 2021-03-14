@@ -153,7 +153,7 @@ if (Math.random() <= 0.5) {
 
 final=start+fact+emote+end;
 
-if (/^web$|^v$/i.test(query)) {
+if (/^facts$|^v$/i.test(query)) {
     final=" Minecraft facts as gabo searches for dumb botw facts. ";
 }
 
