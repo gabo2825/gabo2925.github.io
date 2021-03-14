@@ -112,7 +112,8 @@ const facts=[" Minecraft is a SANDBOX GAME??                                    
              " neutral mobs only attack the players when they are provoked??                                                             ",
              " the Boss mobs are the most powerful in Minecraft??                                                                        ",
              " utility mobs serve as a protection against the hostile mobs??                                                             ",
-             " Cave Game is the first name of Minecraft??                                                                                "];
+             " Cave Game is the first name of Minecraft??                                                                                ",
+             " Minecraft’s main play mechanics are crafting and mining?                                                                  "];
 
 
 const didntknow=[" Well I didn't!!                ",
@@ -155,7 +156,7 @@ if (Math.random() <= 0.5) {
 final=start+fact+emote+end;
 
 if (/^version$|^v$/i.test(query)) {
-    final=" Last updated March 13 2021 at 00:42 EST. ";
+    final=" Added a new message. - March 13 2021 at 20:57 EST. ";
 }
 
 final
