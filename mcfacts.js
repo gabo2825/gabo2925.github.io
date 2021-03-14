@@ -155,8 +155,13 @@ if (Math.random() <= 0.5) {
 
 final=start+fact+emote+end;
 
-if (/^version$|^v$/i.test(query)) {
-    final=" Added a new message. - March 13 2021 at 20:57 EST. ";
+if (/^web$|^v$/i.test(query)) {
+    final=" Facts retrieved from https://facts.net/lifestyle/entertainment/minecraft-facts/ + chat suggestions. ";
 }
+
+if (/^version$|^v$/i.test(query)) {
+    final=" Added !mcfact web. - March 13 2021 at 21:05 EST. ";
+}
+
 
 final
