@@ -62,7 +62,7 @@ else {
 
     else {
 
-        if (/^chat$|mods$|gang$/i.test(query)) {
+        if (/^chat$|mods$|gang$|team$/i.test(query)) {
             middle=" is full of ";
             trait=" cuties? ";
         }         
@@ -200,8 +200,8 @@ else {
 
 final=start+query+middle+trait+end;
 
-if (/^version$/i.test(query)){
-    final=" Last updated march 11th 2021 at 21:01 EST. "
+if (/^version$|^v$/i.test(query)){
+    final=" Added 'team' to plural words. - March 14th 2021 at 20:24 UTC-5. "
 }
 
 final
