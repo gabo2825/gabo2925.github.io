@@ -20,7 +20,7 @@ const facts=[" BOTW is the first Zelda game without composer Koji Kondo??       
              " you gotta pay Money To Hold More Money in some Zelda games??                   ",
              " you can EAT ROCKS in BOTW?? - Kae                                              ",
              " Prices are really weird in Zelda games??                                       ",
-             " in BOTW, crionis' little guardian pisses Kae off??                             ",
+             " in BOTW, crionys' little guardian pisses Kae off??                             ",
              " Zelda is a princess?? - jubilantjenna                                          "];
 
 const didntknow=[" Well I didn't!!                ",
@@ -67,7 +67,7 @@ if (/^facts$|^v$/i.test(query)) {
 }
 
 if (/^version$|^v$/i.test(query)) {
-    final=" Added chat suggested facts. - March 14 2021 at 19:13 UTC-5. ";
+    final=" Of course gabo typoed, fixed it. - March 14 2021 at 20:20 UTC-5. ";
 }
 
 
