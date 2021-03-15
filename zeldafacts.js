@@ -22,7 +22,8 @@ const facts=[" BOTW is the first Zelda game without composer Koji Kondo??       
              " Prices are really weird in Zelda games??                                       ",
              " in BOTW, cryonis' little guardian pisses Kae off??                             ",
              " Zelda is a princess?? - jubilantjenna                                          ",
-             " Zelda is multilingual?? - Kae                                                  "];
+             " Zelda is multilingual?? - Kae                                                  ",
+             " the oracle games were supposed to be 3? and not 2??                            "];
 
 const didntknow=[" Well I didn't!!                ",
                  " HUHH?? I DIDN'T KNOW THAT!!    ",
@@ -68,7 +69,7 @@ if (/^facts$|^v$/i.test(query)) {
 }
 
 if (/^version$|^v$/i.test(query)) {
-    final=" added 'multilingual' - March 14 2021 at 21:08 UTC-5. ";
+    final=" added oracle message - March 14 2021 at 21:08 UTC-5. ";
 }
 
 
