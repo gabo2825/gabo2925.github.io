@@ -68,7 +68,7 @@ if (/^facts$|^v$/i.test(query)) {
 }
 
 if (/^version$|^v$/i.test(query)) {
-    final=" Of course gabo typoed, fixed crionys to cryonis. - March 14 2021 at 20:23 UTC-5. ";
+    final=" added 'multilingual' - March 14 2021 at 21:08 UTC-5. ";
 }
 
 
