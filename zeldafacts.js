@@ -4,6 +4,7 @@ https://www.thegamer.com/legend-of-zelda-hilarious-reasons-economy-nonsense/
 */
 
 const facts=[" BOTW is the first Zelda game without composer Koji Kondo??                     ",
+             " BOTW's map is about DOUBLE the size of skyrim?? - ryk3ld                       ",
              " BOTW's Zelda's voice actor was not actually British??                          ",
              " BOTW was Originally Just For The Wii U??                                       ",
              " in BOTW, Satori Mountain Is Named After Late Nintendo President??              ",
@@ -17,8 +18,10 @@ const facts=[" BOTW is the first Zelda game without composer Koji Kondo??       
              " Money Is An Endless Resource in Zelda games??                                  ",
              " in some games, Robbery Is Part Of The legend of Zelda's Economy??              ",
              " you gotta pay Money To Hold More Money in some Zelda games??                   ",
+             " you can EAT ROCKS in BOTW?? - Kae                                              ",
              " Prices are really weird in Zelda games??                                       ",
-             " in BOTW, crionis' little guardian pisses Kae off?? "];
+             " in BOTW, crionis' little guardian pisses Kae off??                             ",
+             " Zelda is a princess?? - jubilantjenna                                          "];
 
 const didntknow=[" Well I didn't!!                ",
                  " HUHH?? I DIDN'T KNOW THAT!!    ",
@@ -60,11 +63,11 @@ if (Math.random() <= 0.5) {
 final=start+fact+emote+end;
 
 if (/^facts$|^v$/i.test(query)) {
-    final=" Facts retrieved from the following websites: https://www.thegamer.com/legend-zelda-breath-of-the-wild-things-didnt-know/ https://www.thegamer.com/legend-of-zelda-hilarious-reasons-economy-nonsense/  ";
+    final=" Facts retrieved from the following websites: https://www.thegamer.com/legend-zelda-breath-of-the-wild-things-didnt-know/ https://www.thegamer.com/legend-of-zelda-hilarious-reasons-economy-nonsense/ + chat suggestions. ";
 }
 
 if (/^version$|^v$/i.test(query)) {
-    final=" Added fact related to Kae. - March 14 2021 at 19:06 UTC-5. ";
+    final=" Added chat suggested facts. - March 14 2021 at 19:13 UTC-5. ";
 }
 
 
