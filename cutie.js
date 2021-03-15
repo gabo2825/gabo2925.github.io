@@ -201,7 +201,7 @@ else {
 final=start+query+middle+trait+end;
 
 if (/^version$|^v$/i.test(query)){
-    final=" Added 'team' to plural words. - March 14th 2021 at 20:24 UTC-5. "
+    final=" Added 'mods' to plural words. - March 14th 2021 at 20:28 UTC-5. "
 }
 
 final
