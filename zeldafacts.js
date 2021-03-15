@@ -17,7 +17,8 @@ const facts=[" BOTW is the first Zelda game without composer Koji Kondo??       
              " Money Is An Endless Resource in Zelda games??                                  ",
              " in some games, Robbery Is Part Of The legend of Zelda's Economy??              ",
              " you gotta pay Money To Hold More Money in some Zelda games??                   ",
-             " Prices are really weird in Zelda games??                                       "];
+             " Prices are really weird in Zelda games??                                       ",
+             " in BOTW, crionis' little guardian pisses Kae off?? "];
 
 const didntknow=[" Well I didn't!!                ",
                  " HUHH?? I DIDN'T KNOW THAT!!    ",
@@ -63,7 +64,7 @@ if (/^facts$|^v$/i.test(query)) {
 }
 
 if (/^version$|^v$/i.test(query)) {
-    final=" Added 15 new Zelda facts. - March 14 2021 at 18:56 UTC-5. ";
+    final=" Added fact related to Kae. - March 14 2021 at 19:06 UTC-5. ";
 }
 
 
