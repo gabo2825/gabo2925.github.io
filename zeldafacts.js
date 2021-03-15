@@ -21,7 +21,8 @@ const facts=[" BOTW is the first Zelda game without composer Koji Kondo??       
              " you can EAT ROCKS in BOTW?? - Kae                                              ",
              " Prices are really weird in Zelda games??                                       ",
              " in BOTW, cryonis' little guardian pisses Kae off??                             ",
-             " Zelda is a princess?? - jubilantjenna                                          "];
+             " Zelda is a princess?? - jubilantjenna                                          ",
+             " Zelda is multilingual?? - Kae                                                  "];
 
 const didntknow=[" Well I didn't!!                ",
                  " HUHH?? I DIDN'T KNOW THAT!!    ",
