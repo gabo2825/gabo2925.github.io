@@ -83,17 +83,21 @@ else {
             
             kaerandom2 = Math.random();
             
-            if (kaerandom2 <= 0.30) {
+            if (kaerandom2 <= 0.10) {
                 trait=" cute lil' flower? maizBlush ";
             }
             
-            else if (kaerandom2 <= 0.60) {
+            else if (kaerandom2 <= 0.40) {
                 trait=" PRO ZELDA PLAYER??!! "+omg[Math.floor(Math.random()*omg.length)];
             }
                 
-            else if (kaerandom2 <= 0.80) {
+            else if (kaerandom2 <= 0.70) {
                 middle=" is hecking ";
                 trait=" cool? "+omg[Math.floor(Math.random()*omg.length)];
+            }
+                    
+            else if (kaerandom2 <= 0.80) {
+                trait=" princess? maizBlush "+omg[Math.floor(Math.random()*omg.length)];
             }
   
         }
@@ -201,7 +205,7 @@ else {
 final=start+query+middle+trait+end;
 
 if (/^version$|^v$/i.test(query)){
-    final=" Added 'mods' to plural words. - March 14th 2021 at 20:28 UTC-5. "
+    final=" Adjusted chance and added a new message. - March 15th 2021 at 21:15 UTC-5. "
 }
 
 final
