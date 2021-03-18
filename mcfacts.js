@@ -160,7 +160,7 @@ if (/^web$|^facts$/i.test(query)) {
 }
 
 if (/^version$|^v$/i.test(query)) {
-    final=" Added !mcfact web. - March 13 2021 at 21:05 EST. ";
+    final=" Added !mcfact facts. - March 13 2021 at 21:05 EST. ";
 }
 
 
