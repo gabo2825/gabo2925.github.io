@@ -155,7 +155,7 @@ if (Math.random() <= 0.5) {
 
 final=start+fact+emote+end;
 
-if (/^web$|^v$/i.test(query)) {
+if (/^web$|^facts$/i.test(query)) {
     final=" Facts retrieved from https://facts.net/lifestyle/entertainment/minecraft-facts/ + chat suggestions. ";
 }
 
