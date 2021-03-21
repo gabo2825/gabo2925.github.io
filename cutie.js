@@ -11,7 +11,8 @@ const cool=['  kaestr1Cool    ',
             '  abbybaHug      ',
             '  elizab34Uwu    ',
             '  pcrowHug       ',
-            '  lycelLuvsign   '];
+            '  lycelLuvsign   ',
+            '  abibeaHug      '];
 
 const cry=[' kaestr1Cry    ',
            ' elizab34Hands ',
@@ -205,7 +206,7 @@ else {
 final=start+query+middle+trait+end;
 
 if (/^version$|^v$/i.test(query)){
-    final=" Adjusted chance and added a new message. - March 15th 2021 at 21:15 UTC-5. "
+    final=" Added an emote. - March 20th 2021 at 20:55 UTC-5. "
 }
 
 final
