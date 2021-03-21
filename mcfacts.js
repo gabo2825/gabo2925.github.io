@@ -96,7 +96,7 @@ const facts=[" Minecraft is a SANDBOX GAME??                                    
              " a Piston can't push obsidian or bedrock blocks??                                                                          ",
              " crouching can lower the chance of poisoning??                                                                             ",
              " drinking milk or honey bottle can cure the poison??                                                                       ",
-             " there are different purposes for campfire, furnace, and smoker??                                                        ",
+             " there are different purposes for campfire, furnace, and smoker??                                                          ",
              " Minecraft improved the aesthetics of the cow??                                                                            ",
              " when fighting, critical hits come from falling??                                                                          ",
              ' crafting table was once called "workbench"??                                                                              ',
@@ -104,7 +104,6 @@ const facts=[" Minecraft is a SANDBOX GAME??                                    
              " as Minecraft grew, so did its strongholds??                                                                               ",
              " zombies are safe in the cobweb in the daytime??                                                                           ",
              " carpet and farm fence is a great defensive move against hostile mobs??                                                    ",
-             " food is not stackable in the early days??                                                                                 ",
              " players should kill a zombie pigman in just one hit??                                                                     ",
              " the passive mob of Minecraft is harmless??                                                                                ",
              " hostile mobs are aggressive and dangerous??                                                                               ",
@@ -160,7 +159,7 @@ if (/^web$|^facts$/i.test(query)) {
 }
 
 if (/^version$|^v$/i.test(query)) {
-    final=" Added !mcfact facts. - March 13 2021 at 21:05 EST. ";
+    final=" Deleted the 'stackable food' fact. - March 20 2021 at 22:07 UTC-5. ";
 }
 
 
