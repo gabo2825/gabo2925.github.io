@@ -112,7 +112,10 @@ const facts=[" Minecraft is a SANDBOX GAME??                                    
              " the Boss mobs are the most powerful in Minecraft??                                                                        ",
              " utility mobs serve as a protection against the hostile mobs??                                                             ",
              " Cave Game is the first name of Minecraft??                                                                                ",
-             " Minecraft’s main play mechanics are crafting and mining?                                                                  "];
+             " Minecraft’s main play mechanics are crafting and mining??                                                                 ",
+             " wolves in Minecraft are tameable entities?? - Abi                                                                         ",
+             " you can sail across water with special vehicles you can craft called BOATS?? - Abi                                        ",
+             " the player has something called an inventory, where they can store up to 2372 items?? - Abi                               "];
 
 
 const didntknow=[" Well I didn't!!                ",
@@ -159,7 +162,7 @@ if (/^web$|^facts$/i.test(query)) {
 }
 
 if (/^version$|^v$/i.test(query)) {
-    final=" Deleted the 'stackable food' fact. - March 20 2021 at 22:07 UTC-5. ";
+    final=" Added 3 new messages (chat suggestions) - March 21 2021 at 19:15 UTC-5. ";
 }
 
 
