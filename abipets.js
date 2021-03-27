@@ -1,5 +1,5 @@
-if (/^v$|^version$/i.test(query)) {
-    " Ronon (the red dog) is a cavalier King Charles Spaniel. He doesn’t care about anything except for food and naps. ";
+if (/^version$|^v$/i.test(query)) {
+    " This should work YEP - March 27 2021 at 18:45 UTC-5. ";
 }
 else {
     if (/ronon/i.test(pet)) {
