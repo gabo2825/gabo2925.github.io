@@ -1,5 +1,5 @@
 if (/^version$|^v$/i.test(query)) {
-    " Added stuff to !pippin YEP - March 27 2021 at 18:53 UTC-5. ";
+    " I had to reupdate this YEP - March 27 2021 at 18:55 UTC-5. ";
 }
 else {
     if (/ronon/i.test(pet)) {
