@@ -1,5 +1,5 @@
 if (/^version$|^v$/i.test(query)) {
-    " This should work YEP - March 27 2021 at 18:45 UTC-5. ";
+    " Added stuff to !pippin YEP - March 27 2021 at 18:53 UTC-5. ";
 }
 else {
     if (/ronon/i.test(pet)) {
@@ -9,6 +9,8 @@ else {
         " Teyla (the white dog) is a cavalier King Charles Spaniel. She once found a toy in a cabinet 5’ above her head just by smell alone. ";
     }
     else if (/pippin/i.test(pet)) {
-        " Pippin is a domestic short hair cat. Despite being free fed and given wet food twice a day he wants you to know he’s still starving. ";
+        facts=[" Despite being free fed and given wet food twice a day he wants you to know he’s still starving. ",
+               " He once activated sub only mode in Kae's chat. pcrowGiggle "]
+        " Pippin is a domestic short hair cat. "+facts[Math.floor(Math.randomizer()*pippinfacts.length)];
     }
 }
