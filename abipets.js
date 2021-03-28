@@ -41,7 +41,7 @@ const lul=[' elizab34LUL ',
            ' smolLUL ',
            ' pcrowGiggle '];
 if (/^version$|^v$|^ver$/i.test(query)) {
-    " Added a message for Pippin. - March 27 2021 at 21:18 UTC-5. ";
+    " Added a message for Pippin. - March 27 2021 at 21:20 UTC-5. ";
 }
 else if (/^code$/i.test(query)) {
     " Here, check it out! https://gabo2825.github.io/abipets.js ";
