@@ -1,5 +1,5 @@
 if (/^version$|^v$/i.test(query)) {
-    " Made a while command and I hope this doesn't break. - March 27 2021 at 19:36 UTC-5. ";
+    " Made a while command and I hope this doesn't break. - March 27 2021 at 19:37 UTC-5. ";
 }
 else {
     count=1
