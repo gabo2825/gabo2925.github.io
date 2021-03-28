@@ -1,5 +1,5 @@
 if (/^version$|^v$/i.test(query)) {
-    " I had to reupdate this YEP - March 27 2021 at 18:55 UTC-5. ";
+    " I FORGOT A FREAKING SEMICOLON YEP - March 27 2021 at 18:55 UTC-5. ";
 }
 else {
     if (/ronon/i.test(pet)) {
