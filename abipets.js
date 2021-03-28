@@ -41,7 +41,7 @@ const lul=[' elizab34LUL ',
            ' smolLUL ',
            ' pcrowGiggle '];
 if (/^version$|^v$|^ver$/i.test(query)) {
-    " Fixed stuff because I'm lazy and I learn the hard way. - March 27 2021 at 21:07 UTC-5. ";
+    " Added a message for Pippin. - March 27 2021 at 21:18 UTC-5. ";
 }
 else if (/^code$/i.test(query)) {
     " Here, check it out! https://gabo2825.github.io/abipets.js ";
@@ -89,7 +89,8 @@ else {
             }
             facts=[" Despite being free fed and given wet food twice a day he wants you to know he’s still starving. "+nom[Math.floor(Math.random()*nom.length)],
                    " He once activated emote only mode in Kae's chat. "+lul[Math.floor(Math.random()*lul.length)],
-                   " His birthday is September 4th, Teyla's is October 4th, and Ronon's is February 4th. "+omg[Math.floor(Math.random()*omg.length)]];
+                   " His birthday is September 4th, Teyla's is October 4th, and Ronon's is February 4th. "+omg[Math.floor(Math.random()*omg.length)],
+                   " Did ya know his name was originally Dr. Pepper?? "+omg[Math.floor(Math.random()*omg.length)]];
             intro+" domestic short hair cat: "+facts[Math.floor(Math.random()*facts.length)];
         }
         else {
