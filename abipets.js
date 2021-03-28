@@ -41,7 +41,7 @@ const lul=[' elizab34LUL ',
            ' smolLUL ',
            ' pcrowGiggle '];
 if (/^version$|^v$|^ver$/i.test(query)) {
-    " added a shared message. - March 27 2021 at 21:03 UTC-5. ";
+    " Fixed stuff because I'm lazy and I learn the hard way. - March 27 2021 at 21:07 UTC-5. ";
 }
 else if (/^code$/i.test(query)) {
     " Here, check it out! https://gabo2825.github.io/abipets.js ";
@@ -59,8 +59,8 @@ else {
             }
             facts=[" He doesn’t care about anything except for food and naps. "+nom[Math.floor(Math.random()*nom.length)]+sleep[Math.floor(Math.random()*sleep.length)],
                    " His name comes from the SciFi series: Stargate Atlantis! "+omg[Math.floor(Math.random()*omg.length)],
-                   " He broke his leg being 6 months old falling off from a bed. "+cry[Math.floor(Math.random()*cry.length)]],
-                   " His birthday is February 4th, Teyla's is October 4th, and Pippin's is September 4th. "+omg[Math.floor(Math.random()*omg.length)];
+                   " He broke his leg being 6 months old falling off from a bed. "+cry[Math.floor(Math.random()*cry.length)],
+                   " His birthday is February 4th, Teyla's is October 4th, and Pippin's is September 4th. "+omg[Math.floor(Math.random()*omg.length)]];
             intro+" cavalier King Charles Spaniel: "+facts[Math.floor(Math.random()*facts.length)];
         }
         
@@ -72,10 +72,10 @@ else {
             else {
                 count++
             }
-            facts=[" She once found a toy in a cabinet 5’ above her head just by smell alone. ",
-                   " She loves sneezing on people's faces. abibeaHug ",
-                   " Her name comes from the SciFi series: Stargate Atlantis! "]
-                   " Her birthday is October 4th, Ronon's is February 4th, and Pippin's is September 4th. "+omg[Math.floor(Math.random()*omg.length)];
+            facts=[" She once found a toy in a cabinet 5’ above her head just by smell alone. "+omg[Math.floor(Math.random()*omg.length)],
+                   " She loves sneezing on people's faces. "+lul[Math.floor(Math.random()*lul.length)],
+                   " Her name comes from the SciFi series: Stargate Atlantis! "+omg[Math.floor(Math.random()*omg.length)],
+                   " Her birthday is October 4th, Ronon's is February 4th, and Pippin's is September 4th. "+omg[Math.floor(Math.random()*omg.length)]];
             intro+" Teyla (the white dog) is a cavalier King Charles Spaniel: "+facts[Math.floor(Math.random()*facts.length)];
         }
         
@@ -88,7 +88,7 @@ else {
                 count++
             }
             facts=[" Despite being free fed and given wet food twice a day he wants you to know he’s still starving. "+nom[Math.floor(Math.random()*nom.length)],
-                   " He once activated emote only mode in Kae's chat. "+lul[Math.floor(Math.random()*lul.length)]
+                   " He once activated emote only mode in Kae's chat. "+lul[Math.floor(Math.random()*lul.length)],
                    " His birthday is September 4th, Teyla's is October 4th, and Ronon's is February 4th. "+omg[Math.floor(Math.random()*omg.length)]];
             intro+" domestic short hair cat: "+facts[Math.floor(Math.random()*facts.length)];
         }
