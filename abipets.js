@@ -42,7 +42,7 @@ const lul=[' elizab34LUL ',
            ' smolLUL ',
            ' pcrowGiggle '];
 if (/^version$|^v$|^ver$/i.test(query)) {
-    " Added a shameless plug. - March 27 2021 at 21:37 UTC-5. ";
+    " Added message to ronon. - March 27 2021 at 22:27 UTC-5. ";
 }
 else if (/^code$/i.test(query)) {
     " Here, check it out! https://gabo2825.github.io/abipets.js ";
@@ -61,7 +61,8 @@ else {
             facts=[" He doesn’t care about anything except for food and naps. "+nom[Math.floor(Math.random()*nom.length)]+sleep[Math.floor(Math.random()*sleep.length)],
                    " His name comes from the SciFi series: Stargate Atlantis! "+omg[Math.floor(Math.random()*omg.length)],
                    " He broke his leg being 6 months old falling off from a bed. "+cry[Math.floor(Math.random()*cry.length)],
-                   " His birthday is February 4th, Teyla's is October 4th, and Pippin's is September 4th. "+omg[Math.floor(Math.random()*omg.length)]];
+                   " His birthday is February 4th, Teyla's is October 4th, and Pippin's is September 4th. "+omg[Math.floor(Math.random()*omg.length)],
+                   " Did ya know he takes pills in marshmallows?? "+omg[Math.floor(Math.random()*omg.length)]];
             intro+" cavalier King Charles Spaniel: "+facts[Math.floor(Math.random()*facts.length)];
         }
         
