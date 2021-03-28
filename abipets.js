@@ -41,7 +41,7 @@ const lul=[' elizab34LUL ',
            ' smolLUL ',
            ' pcrowGiggle '];
 if (/^version$|^v$|^ver$/i.test(query)) {
-    " Added a message for Pippin. - March 27 2021 at 21:20 UTC-5. ";
+    " Added a message for Teyla. - March 27 2021 at 21:24 UTC-5. ";
 }
 else if (/^code$/i.test(query)) {
     " Here, check it out! https://gabo2825.github.io/abipets.js ";
@@ -75,7 +75,8 @@ else {
             facts=[" She once found a toy in a cabinet 5’ above her head just by smell alone. "+omg[Math.floor(Math.random()*omg.length)],
                    " She loves sneezing on people's faces. "+lul[Math.floor(Math.random()*lul.length)],
                    " Her name comes from the SciFi series: Stargate Atlantis! "+omg[Math.floor(Math.random()*omg.length)],
-                   " Her birthday is October 4th, Ronon's is February 4th, and Pippin's is September 4th. "+omg[Math.floor(Math.random()*omg.length)]];
+                   " Her birthday is October 4th, Ronon's is February 4th, and Pippin's is September 4th. "+omg[Math.floor(Math.random()*omg.length)]
+                   " She spins to the left (only to the left) when she's excited "+lul[Math.floor(Math.random()*lul.length)]];
             intro+" Teyla (the white dog) is a cavalier King Charles Spaniel: "+facts[Math.floor(Math.random()*facts.length)];
         }
         
