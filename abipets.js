@@ -3,7 +3,7 @@ if (/^version$|^v$/i.test(query)) {
 }
 else {
     count=0;
-    while (count=0) {
+    while (count<1) {
         if (/^ronon$/i.test(query)) {
             count++;
             facts=[" He doesn’t care about anything except for food and naps. ",
