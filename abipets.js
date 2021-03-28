@@ -10,7 +10,7 @@ else {
     }
     else if (/pippin/i.test(pet)) {
         facts=[" Despite being free fed and given wet food twice a day he wants you to know he’s still starving. ",
-               " He once activated sub only mode in Kae's chat. pcrowGiggle "]
+               " He once activated sub only mode in Kae's chat. pcrowGiggle "];
         " Pippin is a domestic short hair cat. "+facts[Math.floor(Math.randomizer()*pippinfacts.length)];
     }
 }
