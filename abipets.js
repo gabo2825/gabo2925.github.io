@@ -41,7 +41,7 @@ const lul=[' elizab34LUL ',
            ' smolLUL ',
            ' pcrowGiggle '];
 if (/^version$|^v$/i.test(query)) {
-    " Added emotes that will 100% fail and i won't know how to fix. - March 27 2021 at 20:47 UTC-5. ";
+    " added quotation marks. - March 27 2021 at 20:50 UTC-5. ";
 }
 else {
     count=0;
@@ -91,7 +91,7 @@ else {
                    "Pippin",
                    "Teyla"];
             query=query[Math.floor(Math.random()*query.length)];
-            intro=" Abi has 3 pets: Ronon, Teyla, and Pippin!+abi[Math.floor(Math.random()*abi.length)]+Here's a fact about "+query+", Abi's ";
+            intro=" Abi has 3 pets: Ronon, Teyla, and Pippin!"+abi[Math.floor(Math.random()*abi.length)]+"Here's a fact about "+query+", Abi's ";
             count--;
         }
     }   
