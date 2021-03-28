@@ -41,7 +41,10 @@ const lul=[' elizab34LUL ',
            ' smolLUL ',
            ' pcrowGiggle '];
 if (/^version$|^v$/i.test(query)) {
-    " added quotation marks. - March 27 2021 at 20:50 UTC-5. ";
+    " added a code message. - March 27 2021 at 20:53 UTC-5. ";
+}
+else if (/^code$/i.test(query)) {
+    " Here, check it out! https://gabo2825.github.io/abipets.js ";
 }
 else {
     count=0;
