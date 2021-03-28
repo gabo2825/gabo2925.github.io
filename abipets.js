@@ -1,5 +1,5 @@
 if (/^version$|^v$/i.test(query)) {
-    " Made a while command and I hope this doesn't break. also added a semicolon lol - March 27 2021 at 19:41 UTC-5. ";
+    " i'm trying so hard - March 27 2021 at 19:44 UTC-5. ";
 }
 else {
     count=1;
