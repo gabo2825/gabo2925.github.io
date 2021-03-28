@@ -1,5 +1,5 @@
 if (/^version$|^v$/i.test(query)) {
-    " Gabo's dumb we'll take forever to figure this out pepeDS - March 27 2021 at 19:03 UTC-5. ";
+    " Gabo's dumb we'll take forever to figure this out pepeDS - March 27 2021 at 19:08 UTC-5. ";
 }
 else {
     if (/ronon/i.test(pet)) {
