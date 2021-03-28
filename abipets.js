@@ -1,5 +1,5 @@
 if (/^version$|^v$/i.test(query)) {
-    " Fixed sth about the randomizer, also changed 'sub' to 'emote'. - March 27 2021 at 20:22 UTC-5. ";
+    " Added some teenie adjustments. - March 27 2021 at 20:27 UTC-5. ";
 }
 else {
     count=0;
@@ -49,7 +49,7 @@ else {
                    "Pippin",
                    "Teyla"];
             query=query[Math.floor(Math.random()*query.length)];
-            intro=" Here's a fact about "+query+", Abi's ";
+            intro=" Abi has 3 pets: Ronon, Teyla, and Pippin! Here's a fact about "+query+", Abi's ";
             count--;
         }
     }   
