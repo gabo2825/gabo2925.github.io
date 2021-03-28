@@ -1,8 +1,8 @@
 if (/^version$|^v$/i.test(query)) {
-    " Made a while command and I hope this doesn't break. pls update pls update - March 27 2021 at 19:38 UTC-5. ";
+    " Made a while command and I hope this doesn't break. also added a semicolon lol - March 27 2021 at 19:41 UTC-5. ";
 }
 else {
-    count=1
+    count=1;
     while (count>0) {
         if (/^ronon$/i.test(query)) {
             facts=[" He doesn’t care about anything except for food and naps. ",
