@@ -1,5 +1,5 @@
 if (/^version$|^v$/i.test(query)) {
-    " i'm trying - March 27 2021 at 19:53 UTC-5. ";
+    " i may have fixed it - March 27 2021 at 20:00 UTC-5. ";
 }
 else {
     count=0;
@@ -24,11 +24,11 @@ else {
                    " He once activated sub only mode in Kae's chat. pcrowGiggle "];
             " Pippin is a domestic short hair cat. "+facts[Math.floor(Math.random()*facts.length)];
         }
-        
+        else {
         query=["ronon",
                "pippin",
                "teyla"];
-        query[Math.floor(Math.random()*query.length)];
-        
+        query=query[Math.floor(Math.random()*query.length)];
+        }
     }   
 }
