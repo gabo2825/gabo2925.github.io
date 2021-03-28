@@ -41,7 +41,7 @@ const lul=[' elizab34LUL ',
            ' smolLUL ',
            ' pcrowGiggle '];
 if (/^version$|^v$|^ver$/i.test(query)) {
-    " added a code message. - March 27 2021 at 20:54 UTC-5. ";
+    " added a shared message. - March 27 2021 at 21:03 UTC-5. ";
 }
 else if (/^code$/i.test(query)) {
     " Here, check it out! https://gabo2825.github.io/abipets.js ";
