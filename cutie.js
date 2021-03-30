@@ -48,7 +48,7 @@ end=" I bet ya didn't! "+cool[Math.floor(Math.random()*cool.length)];
 
 if (query.length==0) {
     query=' no one ';
-    end=cry[Math.floor(Math.random()*cry.length)]+" whyyyy? "+cry[Math.floor(Math.random()*cry.length)];
+    end=cry[Math.floor(Math.random()*cry.length)]+" whyyyy? "+cry[Math.floor(Math.random()*cry.length)]+" (please provide a name) ";
 }
 
 else {
@@ -206,7 +206,10 @@ else {
 final=start+query+middle+trait+end;
 
 if (/^version$|^v$/i.test(query)){
-    final=" Added an emote. - March 20th 2021 at 20:55 UTC-5. "
+    final=" Added some text and a code option. - March 29th 2021 at 21:15 UTC-5. "
+}
+else if (/^code$/i.test(query)){
+    final=" Here's the code! https://gabo2825.github.io/cutie.js smolCheese "
 }
 
 final
