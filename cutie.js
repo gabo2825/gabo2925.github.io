@@ -102,6 +102,30 @@ else {
             }
   
         }
+                
+        if (/^Millie$/i.test(query)){
+   
+            millierandom1 = Math.random();
+            
+            if (millierandom1 <= 0.30) {
+                trait=" fluff ball? maizBlush ";
+            }
+  
+            else if (millierandom1 <= 0.45) {
+                trait=" floof ball? lycelAAA ";
+            }
+            
+            else if (millierandom1 <= 0.7) {
+                trait=" mood? "+omg[Math.floor(Math.random()*omg.length)];
+            }
+                    
+            millierandom2 = Math.random();
+            
+            if (millierandom1 <= 0.15) {
+                trait=" Millie go meep! "+cool[Math.floor(Math.random()*cool.length)];
+            }
+                
+        }
 
         if (/^Gabo$/i.test(query)){
    
@@ -206,7 +230,7 @@ else {
 final=start+query+middle+trait+end;
 
 if (/^version$|^v$/i.test(query)){
-    final=" Added some text and a code option. - March 29th 2021 at 21:15 UTC-5. "
+    final=" Added a 'millie' option. - March 29th 2021 at 21:34 UTC-5. "
 }
 else if (/^code$/i.test(query)){
     final=" Here's the code! https://gabo2825.github.io/cutie.js smolCheese "
