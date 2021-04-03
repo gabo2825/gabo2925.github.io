@@ -42,7 +42,7 @@ const lul=[' elizab34LUL ',
            ' smolLUL ',
            ' pcrowGiggle '];
 if (/^version$|^v$|^ver$/i.test(query)) {
-    " Added amother message to ronon. - March 27 2021 at 22:41 UTC-5. ";
+    " Added a message for Teyla. - April 3 2021 at 00:19 UTC-5. ";
 }
 else if (/^code$/i.test(query)) {
     " Here, check it out! https://gabo2825.github.io/abipets.js ";
@@ -53,7 +53,7 @@ else {
         if (/^ronon$/i.test(query)) {
             count++;
             if (count>=1) {
-                intro=" Ronon (the red dog) is a ";
+                intro=" Ronon is a ";
             }
             else {
                 count++
@@ -64,13 +64,13 @@ else {
                    " His birthday is February 4th, Teyla's is October 4th, and Pippin's is September 4th. "+omg[Math.floor(Math.random()*omg.length)],
                    " Did ya know he takes pills in marshmallows?? "+omg[Math.floor(Math.random()*omg.length)],
                    " He learned to open the dishwasher and would carry spoons on his mouth. "+lul[Math.floor(Math.random()*lul.length)]];
-            intro+" cavalier King Charles Spaniel: "+facts[Math.floor(Math.random()*facts.length)];
+            intro+" red cavalier King Charles Spaniel: "+facts[Math.floor(Math.random()*facts.length)];
         }
         
         else if (/^teyla$/i.test(query)) {
             count++;
             if (count>=1) {
-                intro=" Teyla (the white dog) is a ";
+                intro=" Teyla is a ";
             }
             else {
                 count++
@@ -80,7 +80,7 @@ else {
                    " Her name comes from the SciFi series: Stargate Atlantis! "+omg[Math.floor(Math.random()*omg.length)],
                    " Her birthday is October 4th, Ronon's is February 4th, and Pippin's is September 4th. "+omg[Math.floor(Math.random()*omg.length)],
                    " She spins to the left (only to the left) when she's excited "+lul[Math.floor(Math.random()*lul.length)]];
-            intro+" Teyla (the white dog) is a cavalier King Charles Spaniel: "+facts[Math.floor(Math.random()*facts.length)];
+            intro+" white cavalier King Charles Spaniel: "+facts[Math.floor(Math.random()*facts.length)];
         }
         
         else if (/^pippin$/i.test(query)) {
