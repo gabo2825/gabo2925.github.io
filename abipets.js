@@ -2,6 +2,26 @@
 const abi=[" abibeaWave ",
            " abibeaLurk ",
            " abibeaHug "];
+
+const love=[' elizab34Uwu ',
+            ' kaestr1Hug ',
+            ' abibeaHug ',
+            ' abbybaHug ',
+            ' therea1896Hug ',
+            ' smolHug ',
+            ' lycelHug ',
+            ' pcrowHug ',
+            ' archit3Hug ',
+            ' paintbUwU ',
+            ' octopa3Love ',
+            ' bbytesLove ',
+            ' archit3Love ',
+            ' smolLove ',
+            ' lycelLove ',
+            ' pcrowLove ',
+	 ' lycelGib ',
+            ' matt38Love '];
+
 const cry=[' kaestr1Cry    ',
            ' elizab34Hands ',
            ' lycelHands    ',
@@ -12,6 +32,7 @@ const cry=[' kaestr1Cry    ',
            ' linkusCry     ',
            ' pcrowCry      ',
            ' smolCry       ',];
+
 const omg=[' smolWow     ',
            ' pcrowWow    ',
            ' smolD       ',
@@ -26,6 +47,7 @@ const omg=[' smolWow     ',
            ' maizBlush   ',
            ' abibeaLurk  ',
            ' elizab34Pog '];
+
 const sleep=[' pcrowCozy ',
              ' pcrowZ ',
              ' maizNap ',
@@ -35,14 +57,17 @@ const sleep=[' pcrowCozy ',
              ' abbybaComfy ',
              ' hammer89Comfy ',
              ' smolNap '];
+
 const nom=[' smolNom ',
            ' abbybaNom ',
            ' maizNom '];
+
 const lul=[' elizab34LUL ',
            ' smolLUL ',
            ' pcrowGiggle '];
+
 if (/^version$|^v$|^ver$/i.test(query)) {
-    " Added a message for Teyla. - April 3 2021 at 00:19 UTC-5. ";
+    " Added a message for Teyla and a new array! - April 3 2021 at 00:24 UTC-5. ";
 }
 else if (/^code$/i.test(query)) {
     " Here, check it out! https://gabo2825.github.io/abipets.js ";
@@ -77,6 +102,7 @@ else {
             }
             facts=[" She once found a toy in a cabinet 5’ above her head just by smell alone. "+omg[Math.floor(Math.random()*omg.length)],
                    " She loves sneezing on people's faces. "+lul[Math.floor(Math.random()*lul.length)],
+                   " She thinks she should be pet 26 hours a day, 8 days a week. "+lul[Math.floor(Math.random()*lul.length)]+" But doesn't she? "+love[Math.floor(Math.random()*love.length)],
                    " Her name comes from the SciFi series: Stargate Atlantis! "+omg[Math.floor(Math.random()*omg.length)],
                    " Her birthday is October 4th, Ronon's is February 4th, and Pippin's is September 4th. "+omg[Math.floor(Math.random()*omg.length)],
                    " She spins to the left (only to the left) when she's excited "+lul[Math.floor(Math.random()*lul.length)]];
