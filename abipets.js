@@ -67,7 +67,7 @@ const lul=[' elizab34LUL ',
            ' pcrowGiggle '];
 
 if (/^version$|^v$|^ver$/i.test(query)) {
-    " Now you can use R, T, and P, short for pets names! - April 3 2021 at 00:29 UTC-5. ";
+    " Now you can use R, T, and P, short for pets names! - April 3 2021 at 00:31 UTC-5. ";
 }
 else if (/^code$/i.test(query)) {
     " Here, check it out! https://gabo2825.github.io/abipets.js ";
