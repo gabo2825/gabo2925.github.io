@@ -67,7 +67,7 @@ const lul=[' elizab34LUL ',
            ' pcrowGiggle '];
 
 if (/^version$|^v$|^ver$/i.test(query)) {
-    " Added messages for all of the pets! - April 3 2021 at 17:58 UTC-5. ";
+    " Fixed messages for some of the pets! - April 3 2021 at 18:01 UTC-5. ";
 }
 else if (/^code$/i.test(query)) {
     " Here, check it out! https://gabo2825.github.io/abipets.js ";
@@ -105,7 +105,7 @@ else {
             facts=[" She once found a toy in a cabinet 5’ above her head just by smell alone. "+omg[Math.floor(Math.random()*omg.length)],
                    " She loves sneezing on people's faces. "+lul[Math.floor(Math.random()*lul.length)],
 		   " In the fall she covers herself in leaves to try to become a giant leaf. "+sleep[Math.floor(Math.random()*sleep.length)],
-		   " Teyla is obsessed with popcorn, it’s her favorite human food to beg for. "+nom[Math.floor(Math.random()*nom.length)],
+		   " She's obsessed with popcorn! "+omg[Math.floor(Math.random()*omg.length)]+" it’s her favorite human food to beg for. "+nom[Math.floor(Math.random()*nom.length)],
                    " She thinks she should be pet 26 hours a day, 8 days a week. "+lul[Math.floor(Math.random()*lul.length)]+" But doesn't she? "+love[Math.floor(Math.random()*love.length)],
                    " Her name comes from the SciFi series: Stargate Atlantis! "+omg[Math.floor(Math.random()*omg.length)],
                    " Her birthday is October 4th, Ronon's is February 4th, and Pippin's is September 4th. "+omg[Math.floor(Math.random()*omg.length)],
@@ -123,7 +123,7 @@ else {
             }
             facts=[" Despite being free fed and given wet food twice a day he wants you to know he’s still starving. "+nom[Math.floor(Math.random()*nom.length)],
                    " He once activated emote only mode in Kae's chat. "+lul[Math.floor(Math.random()*lul.length)],
-		   " He's not a fan of the outdoors. "+omg[Math.floor(Math.random()*omg.length)],
+		   " He's not a fan of the outdoors. "+love[Math.floor(Math.random()*love.length)],
 		   " When he was rescued he weighed 4lbs., now he’s almost 7lbs.! That’s progress "+omg[Math.floor(Math.random()*omg.length)]+love[Math.floor(Math.random()*love.length)],
                    " His birthday is September 4th, Teyla's is October 4th, and Ronon's is February 4th. "+omg[Math.floor(Math.random()*omg.length)],
                    " Did ya know his name was originally Dr. Pepper?? "+omg[Math.floor(Math.random()*omg.length)]];
