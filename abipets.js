@@ -67,7 +67,7 @@ const lul=[' elizab34LUL ',
            ' pcrowGiggle '];
 
 if (/^version$|^v$|^ver$/i.test(query)) {
-    " Added a message for Teyla and a new array! - April 3 2021 at 00:24 UTC-5. ";
+    " Now you can use R, T, and P, short for pets names! - April 3 2021 at 00:29 UTC-5. ";
 }
 else if (/^code$/i.test(query)) {
     " Here, check it out! https://gabo2825.github.io/abipets.js ";
@@ -75,7 +75,7 @@ else if (/^code$/i.test(query)) {
 else {
     count=0;
     while (count<1) {
-        if (/^ronon$/i.test(query)) {
+        if (/^ronon$|^r$/i.test(query)) {
             count++;
             if (count>=1) {
                 intro=" Ronon is a ";
@@ -92,7 +92,7 @@ else {
             intro+" red cavalier King Charles Spaniel: "+facts[Math.floor(Math.random()*facts.length)];
         }
         
-        else if (/^teyla$/i.test(query)) {
+        else if (/^teyla$|^t$/i.test(query)) {
             count++;
             if (count>=1) {
                 intro=" Teyla is a ";
@@ -109,7 +109,7 @@ else {
             intro+" white cavalier King Charles Spaniel: "+facts[Math.floor(Math.random()*facts.length)];
         }
         
-        else if (/^pippin$/i.test(query)) {
+        else if (/^pippin$|^p$/i.test(query)) {
             count++;
             if (count>=1) {
                 intro=" Pippin is a ";
