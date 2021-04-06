@@ -69,7 +69,11 @@ if (/^facts$|^v$/i.test(query)) {
 }
 
 if (/^version$|^v$/i.test(query)) {
-    final=" added oracle message - March 14 2021 at 21:08 UTC-5. ";
+    final=" added code message - April 5 2021 at 23:28 UTC-5. ";
+}
+
+if (/^code$/i.test(query)) {
+    " Here, check it out! https://gabo2825.github.io/zeldafacts.js ";
 }
 
 
