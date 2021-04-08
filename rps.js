@@ -28,7 +28,7 @@ else{
   nbt="I chose "+nb;
   
   if (res=2){
-    end=", you win! elizab34Pog";
+    end=", you won! elizab34Pog";
   }
   
   else if (nb=query){
