@@ -6,6 +6,7 @@ if(query.length==0){
   'Please specify "r", "p", "s".';
 }
 else{
+  res=0;
   if(/^rock$|^r$/i.test(query)){
     query="rock";
     if(/^scissors$/i.test(nb)){
