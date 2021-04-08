@@ -39,6 +39,6 @@ else{
   else{
     end=", you lose! lycelChaos";
   }
-  final=nbt+ust+end;
+  final=ust+nbt+end;
 }
 final
