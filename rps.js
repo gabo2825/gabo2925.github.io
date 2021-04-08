@@ -3,7 +3,7 @@ nb=nbprob[Math.floor(Math.random()*nbprob.length)];
 nbt="I chose "+nb;
 
 if(query.length==0){
-  'Please specify "r", "p", "s".';
+  final='Please specify "r", "p", "s". lycelIdk';
 }
 else{
   res=0;
@@ -24,16 +24,20 @@ else{
     if(/^paper$/i.test(nb)){
       res=1;
     }
+  }
+
+  ust=", you chose "+query;
+  if (res=1){
+    end=", you win! elizab34Pog";
+  }
+  
+  else if (nb===query){
+    end=", it's a tie! smolYay";
+  }
+  
+  else{
+    end=", you lose! lycelChaos";
+  }
+  final=nbt+ust+end;
 }
-ust=", you chose "+query;
-if (res=1){
-  final=", you win! elizab34Pog";
-}
-else if (nb===query){
-  final=", it's a tie! smolYay";
-}
-else{
-  final=", you lose! lycelChaos";
-}
-nbt+ust+final;
-}
+final
