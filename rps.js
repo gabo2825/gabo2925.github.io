@@ -1,6 +1,5 @@
 const nbprob=["rock","paper","scissors"];
 nb=nbprob[Math.floor(Math.random()*nbprob.length)];
-nbt="I chose "+nb;
 
 if(query.length==0){
   final='Please specify "r", "p", "s". lycelIdk';
@@ -27,6 +26,8 @@ else{
   }
 
   ust=", you chose "+query;
+  nbt="I chose "+nb;
+  
   if (res=1){
     end=", you win! elizab34Pog";
   }
