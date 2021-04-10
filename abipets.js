@@ -67,7 +67,7 @@ const lul=[' elizab34LUL ',
            ' pcrowGiggle '];
 
 if (/^version$|^v$|^ver$/i.test(query)) {
-    " Fixed messages for some of the pets! - April 3 2021 at 18:01 UTC-5. ";
+    " Added message for Teyla! - April 10 2021 at 18:30 UTC-5. ";
 }
 else if (/^code$/i.test(query)) {
     " Here, check it out! https://gabo2825.github.io/abipets.js ";
