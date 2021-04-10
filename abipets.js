@@ -109,6 +109,7 @@ else {
                    " She thinks she should be pet 26 hours a day, 8 days a week. "+lul[Math.floor(Math.random()*lul.length)]+" But doesn't she? "+love[Math.floor(Math.random()*love.length)],
                    " Her name comes from the SciFi series: Stargate Atlantis! "+omg[Math.floor(Math.random()*omg.length)],
                    " Her birthday is October 4th, Ronon's is February 4th, and Pippin's is September 4th. "+omg[Math.floor(Math.random()*omg.length)],
+		   " She demands to sit on Abi's lap 30 hours a day. "+sleep[Math.floor(Math.random()*sleep.length)],
                    " She spins to the left (only to the left) when she's excited "+lul[Math.floor(Math.random()*lul.length)]];
             intro+" white cavalier King Charles Spaniel: "+facts[Math.floor(Math.random()*facts.length)];
         }
