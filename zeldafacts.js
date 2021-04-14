@@ -74,7 +74,7 @@ else {
   }
   
   if (/^version$|^v$/i.test(query)) {
-      final=" Idk I'm 13 tries in and nothing's working. - April 14 2021 at 17:40 UTC-5. ";
+      final=" Idk I'm 14 tries in and nothing's working. - April 14 2021 at 17:41 UTC-5. ";
   }
   
   if (/^code$/i.test(query)) {
@@ -83,7 +83,7 @@ else {
 }
 
 
-query = parseInt(query.replace(/\D|0/g, ''));
+query = parseInt(query.replace(/\D|^0$/g, ''));
 if (!isNaN(query)) {
   start=" Did you know ";
   
