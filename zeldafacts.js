@@ -73,7 +73,7 @@ else {
   }
   
   if (/^version$|^v$/i.test(query)) {
-      final=" Hopefully did something right KEKW (sixth try) . - April 14 2021 at 16:57 UTC-5. ";
+      final=" Hopefully did something right KEKW (sixth try). - April 14 2021 at 16:57 UTC-5. ";
   }
   
   if (/^code$/i.test(query)) {
