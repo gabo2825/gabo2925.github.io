@@ -72,7 +72,7 @@ if (Math.random() <= 0.5) {
 
 final=start+fact+emote+end;
 
-if (/^facts$|^v$/i.test(query)) {
+if (/^facts$/i.test(query)) {
     final=" Facts retrieved from the following websites: https://www.thegamer.com/legend-zelda-breath-of-the-wild-things-didnt-know/ https://www.thegamer.com/legend-of-zelda-hilarious-reasons-economy-nonsense/ + chat suggestions. ";
 }
 
