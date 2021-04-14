@@ -51,11 +51,11 @@ const omg=[' smolWow     ',
            ' elizab34Pog '];
 
 start=" Did you know ";
+  
+query = parseInt(query.replace(/\D/g, ''));
+fact=facts[Math.floor*(Math.random()*facts.length)];
 
-if (isNaN(query)) {
-  fact=facts[Math.floor(Math.random()*facts.length)];
-}
-else {
+if (!isNaN(query)) {
   query=query%facts.length;
   fact=query+": "+facts[query];
 }
@@ -77,7 +77,7 @@ if (/^facts$|^v$/i.test(query)) {
 }
 
 if (/^version$|^v$/i.test(query)) {
-    final=" Hopefully did something right KEKW . - April 14 2021 at 16:10 UTC-5. ";
+    final=" Hopefully did something right KEKW (second try) . - April 14 2021 at 16:22 UTC-5. ";
 }
 
 if (/^code$/i.test(query)) {
