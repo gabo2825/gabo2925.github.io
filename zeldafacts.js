@@ -51,11 +51,13 @@ const omg=[' smolWow     ',
            ' elizab34Pog '];
 
 
-  end="  ";
+  end=num="";
 
 if (query.length==0) {
   start=" Did you know ";
-  fact=facts[Math.floor*(Math.random()*facts.length)];
+  factnum=Math.ceil*(Math.random()*facts.length)
+  num=factnum+": "
+  fact=facts[factnum-1];
   emote=omg[Math.floor(Math.random()*omg.length)];
   
   if (Math.random() <= 0.5) {
@@ -71,7 +73,7 @@ else {
   }
   
   if (/^version$|^v$/i.test(query)) {
-      final=" Hopefully did something right KEKW (fifth try) . - April 14 2021 at 16:49 UTC-5. ";
+      final=" Hopefully did something right KEKW (sixth try) . - April 14 2021 at 16:57 UTC-5. ";
   }
   
   if (/^code$/i.test(query)) {
@@ -85,7 +87,8 @@ if (!isNaN(query)) {
   start=" Did you know ";
   
   factnum=query%facts.length;
-  fact=factnum+": "+facts[factnum];
+  num=factnum+": ";
+  fact=facts[factnum-1];
   
   emote=omg[Math.floor(Math.random()*omg.length)];
   
@@ -94,7 +97,7 @@ if (!isNaN(query)) {
       end=didntknow[Math.floor(Math.random()*didntknow.length)]+omg[Math.floor(Math.random()*omg.length)];
   }
   
-  final=start+fact+emote+end;
+  final=num+start+fact+emote+end;
 }
 
 
