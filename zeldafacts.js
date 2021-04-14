@@ -74,7 +74,7 @@ else {
   }
   
   if (/^version$|^v$/i.test(query)) {
-      final=" Idk I'm 13 tries in and nothing's working. - April 14 2021 at 17:39 UTC-5. ";
+      final=" Idk I'm 13 tries in and nothing's working. - April 14 2021 at 17:40 UTC-5. ";
   }
   
   if (/^code$/i.test(query)) {
