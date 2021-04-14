@@ -77,7 +77,7 @@ if (/^facts$/i.test(query)) {
 }
 
 if (/^version$|^v$/i.test(query)) {
-    final=" Hopefully did something right KEKW (third try) . - April 14 2021 at 16:23 UTC-5. ";
+    final=" Hopefully did something right KEKW (fourth try) . - April 14 2021 at 16:24 UTC-5. ";
 }
 
 if (/^code$/i.test(query)) {
