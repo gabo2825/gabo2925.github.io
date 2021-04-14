@@ -51,7 +51,14 @@ const omg=[' smolWow     ',
            ' elizab34Pog '];
 
 start=" Did you know ";
-fact=facts[Math.floor(Math.random()*facts.length)];
+
+if (isNaN(query)) {
+  fact=facts[Math.floor(Math.random()*facts.length)];
+}
+else {
+  fact=facts[query];
+}
+
 emote=omg[Math.floor(Math.random()*omg.length)];
 
 end="  ";
@@ -69,7 +76,7 @@ if (/^facts$|^v$/i.test(query)) {
 }
 
 if (/^version$|^v$/i.test(query)) {
-    final=" added code message - April 5 2021 at 23:28 UTC-5. ";
+    final=" Hopefully made it possible to choose your outcome message. - April 14 2021 at 15:41 UTC-5. ";
 }
 
 if (/^code$/i.test(query)) {
