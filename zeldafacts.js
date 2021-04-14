@@ -56,7 +56,7 @@ num=" ";
 
 if (query.length==0) {
   start=" Did you know ";
-  factnum=Math.ceil*(Math.random()*facts.length);
+  factnum=Math.ceil(Math.random()*facts.length);
   num=factnum+": ";
   fact=facts[factnum-1];
   emote=omg[Math.floor(Math.random()*omg.length)];
@@ -74,7 +74,7 @@ else {
   }
   
   if (/^version$|^v$/i.test(query)) {
-      final=" Hopefully did something right KEKW (eighth try). - April 14 2021 at 17:01 UTC-5. ";
+      final=" Hopefully did something right kaestr1Cry (nineth try). - April 14 2021 at 17:09 UTC-5. ";
   }
   
   if (/^code$/i.test(query)) {
