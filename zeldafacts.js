@@ -77,11 +77,11 @@ if (/^facts$|^v$/i.test(query)) {
 }
 
 if (/^version$|^v$/i.test(query)) {
-    final=" Hopefully did something right KEKW (second try) . - April 14 2021 at 16:22 UTC-5. ";
+    final=" Hopefully did something right KEKW (third try) . - April 14 2021 at 16:23 UTC-5. ";
 }
 
 if (/^code$/i.test(query)) {
-    " Here, check it out! https://gabo2825.github.io/zeldafacts.js ";
+    final=" Here, check it out! https://gabo2825.github.io/zeldafacts.js ";
 }
 
 
