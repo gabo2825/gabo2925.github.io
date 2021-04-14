@@ -56,7 +56,8 @@ if (isNaN(query)) {
   fact=facts[Math.floor(Math.random()*facts.length)];
 }
 else {
-  fact=facts[query];
+  query=query%facts.length;
+  fact=query+": "+facts[query];
 }
 
 emote=omg[Math.floor(Math.random()*omg.length)];
@@ -76,7 +77,7 @@ if (/^facts$|^v$/i.test(query)) {
 }
 
 if (/^version$|^v$/i.test(query)) {
-    final=" Hopefully made it possible to choose your outcome message. - April 14 2021 at 15:41 UTC-5. ";
+    final=" Hopefully did something right KEKW . - April 14 2021 at 16:10 UTC-5. ";
 }
 
 if (/^code$/i.test(query)) {
