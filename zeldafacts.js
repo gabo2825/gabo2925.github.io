@@ -74,7 +74,7 @@ else {
   }
   
   if (/^version$|^v$/i.test(query)) {
-      final=" Idk i'm 10 tries in and nothing's working. - April 14 2021 at 17:11 UTC-5. ";
+      final=" Idk i'm 11 tries in and nothing's working. - April 14 2021 at 17:30 UTC-5. ";
   }
   
   if (/^code$/i.test(query)) {
@@ -87,9 +87,10 @@ query = parseInt(query.replace(/\D/g, ''));
 if (!isNaN(query)) {
   start=" Did you know ";
   
-  factnum=query%facts.length;
+  number=query-1;
+  factnum=number%facts.length;
   num=factnum+": ";
-  fact=facts[factnum-1];
+  fact=facts[factnum];
   
   emote=omg[Math.floor(Math.random()*omg.length)];
   
