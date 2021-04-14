@@ -65,7 +65,7 @@ if (query.length==0) {
       end=didntknow[Math.floor(Math.random()*didntknow.length)]+omg[Math.floor(Math.random()*omg.length)];
   }
   
-  final=start+fact+emote+end;
+  final=num+start+fact+emote+end;
   
 }
 else {
@@ -74,7 +74,7 @@ else {
   }
   
   if (/^version$|^v$/i.test(query)) {
-      final=" Hopefully did something right kaestr1Cry (nineth try). - April 14 2021 at 17:09 UTC-5. ";
+      final=" Idk i'm 10 tries in and nothing's working. - April 14 2021 at 17:11 UTC-5. ";
   }
   
   if (/^code$/i.test(query)) {
