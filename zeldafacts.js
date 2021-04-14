@@ -54,7 +54,6 @@ const omg=[' smolWow     ',
 end=" ";
 num=" ";
 
-query = parseInt(query.replace(/^0$/g, ''));
 if (query.length==0) {
   start=" Did you know ";
   factnum=Math.ceil(Math.random()*facts.length);
@@ -75,7 +74,7 @@ else {
   }
   
   if (/^version$|^v$/i.test(query)) {
-      final=" Idk I'm 15 tries in and nothing's working. - April 14 2021 at 17:46 UTC-5. ";
+      final=" Idk I'm 16 tries in and nothing's working. - April 14 2021 at 17:50 UTC-5. ";
   }
   
   if (/^code$/i.test(query)) {
@@ -87,6 +86,8 @@ else {
 query = parseInt(query.replace(/\D/g, ''));
 if (!isNaN(query)) {
   start=" Did you know ";
+  
+  if (/^0$/.test) {query=Math.ceil(Math.random()*facts.length);}
   
   factnum=(query-1)%facts.length;
   num=(factnum+1)+": ";
