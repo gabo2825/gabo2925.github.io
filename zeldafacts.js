@@ -21,7 +21,7 @@ const facts=[" BOTW is the first Zelda game without composer Koji Kondo??       
              " you can EAT ROCKS in BOTW?? - Kae                                              ",
              " Prices are really weird in Zelda games??                                       ",
              " in BOTW, cryonis' little guardian pisses Kae off??                             ",
-             " princess Zelda is a princess?? - jubilantjenna                                          ",
+             " princess Zelda is a princess?? - jubilantjenna                                 ",
              " Zelda is multilingual?? - Kae                                                  ",
              " the oracle games were supposed to be 3? and not 2??                            "];
 
@@ -50,38 +50,51 @@ const omg=[' smolWow     ',
            ' abibeaLurk  ',
            ' elizab34Pog '];
 
-start=" Did you know ";
+
+  end="  ";
+
+if (query.length==0) {
+  start=" Did you know ";
+  fact=facts[Math.floor*(Math.random()*facts.length)];
+  emote=omg[Math.floor(Math.random()*omg.length)];
   
+  if (Math.random() <= 0.5) {
+      end=didntknow[Math.floor(Math.random()*didntknow.length)]+omg[Math.floor(Math.random()*omg.length)];
+  }
+  
+  final=start+fact+emote+end;
+  
+}
+else {
+  if (/^facts$/i.test(query)) {
+      final=" Facts retrieved from the following websites: https://www.thegamer.com/legend-zelda-breath-of-the-wild-things-didnt-know/ https://www.thegamer.com/legend-of-zelda-hilarious-reasons-economy-nonsense/ + chat suggestions. ";
+  }
+  
+  if (/^version$|^v$/i.test(query)) {
+      final=" Hopefully did something right KEKW (fifth try) . - April 14 2021 at 16:49 UTC-5. ";
+  }
+  
+  if (/^code$/i.test(query)) {
+      final=" Here, check it out! https://gabo2825.github.io/zeldafacts.js ";
+  }
+}
+
+
 query = parseInt(query.replace(/\D/g, ''));
-fact=facts[Math.floor*(Math.random()*facts.length)];
-
-if (!isNaN(query)) {
-  query=query%facts.length;
-  fact=query+": "+facts[query];
-}
-
-emote=omg[Math.floor(Math.random()*omg.length)];
-
-end="  ";
-
-
-if (Math.random() <= 0.5) {
-    end=didntknow[Math.floor(Math.random()*didntknow.length)]+omg[Math.floor(Math.random()*omg.length)];
-}
-
-
-final=start+fact+emote+end;
-
-if (/^facts$/i.test(query)) {
-    final=" Facts retrieved from the following websites: https://www.thegamer.com/legend-zelda-breath-of-the-wild-things-didnt-know/ https://www.thegamer.com/legend-of-zelda-hilarious-reasons-economy-nonsense/ + chat suggestions. ";
-}
-
-if (/^version$|^v$/i.test(query)) {
-    final=" Hopefully did something right KEKW (fourth try) . - April 14 2021 at 16:24 UTC-5. ";
-}
-
-if (/^code$/i.test(query)) {
-    final=" Here, check it out! https://gabo2825.github.io/zeldafacts.js ";
+if (!isNaN(query)) {
+  start=" Did you know ";
+  
+  factnum=query%facts.length;
+  fact=factnum+": "+facts[factnum];
+  
+  emote=omg[Math.floor(Math.random()*omg.length)];
+  
+  
+  if (Math.random() <= 0.5) {
+      end=didntknow[Math.floor(Math.random()*didntknow.length)]+omg[Math.floor(Math.random()*omg.length)];
+  }
+  
+  final=start+fact+emote+end;
 }
 
 
