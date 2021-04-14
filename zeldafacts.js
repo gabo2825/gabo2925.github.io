@@ -74,7 +74,7 @@ else {
   }
   
   if (/^version$|^v$/i.test(query)) {
-      final=" Idk i'm 11 tries in and nothing's working. - April 14 2021 at 17:31 UTC-5. ";
+      final=" Idk i'm 12 tries in and nothing's working. - April 14 2021 at 17:36 UTC-5. ";
   }
   
   if (/^code$/i.test(query)) {
@@ -88,7 +88,7 @@ if (!isNaN(query)) {
   start=" Did you know ";
   
   factnum=(query-1)%facts.length;
-  num=query+": ";
+  num=(factnum+1)+": ";
   fact=facts[factnum];
   
   emote=omg[Math.floor(Math.random()*omg.length)];
