@@ -67,7 +67,7 @@ const lul=[' elizab34LUL ',
            ' pcrowGiggle '];
 
 if (/^version$|^v$|^ver$/i.test(query)) {
-    " Added message for Ronon and added a funny randomizer! also added a semi colon - May 8 2021 at 22:29 UTC-5. ";
+    " Added message for Ronon and added a funny randomizer! also added a semi colon - May 8 2021 at 22:31 UTC-5. ";
 }
 else if (/^code$/i.test(query)) {
     " Here, check it out! https://gabo2825.github.io/abipets.js ";
@@ -103,7 +103,9 @@ else {
             else {
                 count++
             }
+		
 	    hoursfunny=(Math.floor()*6)+25;
+		
             facts=[" She once found a toy in a cabinet 5’ above her head just by smell alone. "+omg[Math.floor(Math.random()*omg.length)],
                    " She loves sneezing on people's faces. "+lul[Math.floor(Math.random()*lul.length)],
 		   " In the fall she covers herself in leaves to try to become a giant leaf. "+sleep[Math.floor(Math.random()*sleep.length)],
