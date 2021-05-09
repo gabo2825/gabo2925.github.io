@@ -67,7 +67,7 @@ const lul=[' elizab34LUL ',
            ' pcrowGiggle '];
 
 if (/^version$|^v$|^ver$/i.test(query)) {
-    " Added message for Teyla! - April 10 2021 at 18:30 UTC-5. ";
+    " Added message for Ronon and added a funny randomizer! - May 8 2021 at 22:28 UTC-5. ";
 }
 else if (/^code$/i.test(query)) {
     " Here, check it out! https://gabo2825.github.io/abipets.js ";
@@ -87,6 +87,7 @@ else {
                    " His name comes from the SciFi series: Stargate Atlantis! "+omg[Math.floor(Math.random()*omg.length)],
 		   " He has three spots on his neck that will make his leg go brr. "+lul[Math.floor(Math.random()*lul.length)],
 	           " He loves to lick walls. cbcLick "+lul[Math.floor(Math.random()*lul.length)],
+		   " He eats the darnedest things! "+nom[Math.floor(Math.random()*nom.length)]+cry[Math.floor(Math.random()*cry.length)],
                    " He broke his leg being 6 months old falling off from a bed. "+cry[Math.floor(Math.random()*cry.length)],
                    " His birthday is February 4th, Teyla's is October 4th, and Pippin's is September 4th. "+omg[Math.floor(Math.random()*omg.length)],
                    " Did ya know he takes pills in marshmallows?? "+omg[Math.floor(Math.random()*omg.length)],
@@ -102,11 +103,12 @@ else {
             else {
                 count++
             }
+	    hoursfunny=(Math.floor()*6)+25
             facts=[" She once found a toy in a cabinet 5’ above her head just by smell alone. "+omg[Math.floor(Math.random()*omg.length)],
                    " She loves sneezing on people's faces. "+lul[Math.floor(Math.random()*lul.length)],
 		   " In the fall she covers herself in leaves to try to become a giant leaf. "+sleep[Math.floor(Math.random()*sleep.length)],
 		   " She's obsessed with popcorn! "+omg[Math.floor(Math.random()*omg.length)]+" it’s her favorite human food to beg for. "+nom[Math.floor(Math.random()*nom.length)],
-                   " She thinks she should be pet 26 hours a day, 8 days a week. "+lul[Math.floor(Math.random()*lul.length)]+" But doesn't she? "+love[Math.floor(Math.random()*love.length)],
+                   " She thinks she should be pet "+hoursfunny+" hours a day, 8 days a week. "+lul[Math.floor(Math.random()*lul.length)]+" But doesn't she? "+love[Math.floor(Math.random()*love.length)],
                    " Her name comes from the SciFi series: Stargate Atlantis! "+omg[Math.floor(Math.random()*omg.length)],
                    " Her birthday is October 4th, Ronon's is February 4th, and Pippin's is September 4th. "+omg[Math.floor(Math.random()*omg.length)],
 		   " She demands to sit on Abi's lap 30 hours a day. "+sleep[Math.floor(Math.random()*sleep.length)],
