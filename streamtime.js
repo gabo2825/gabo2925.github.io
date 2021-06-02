@@ -5,7 +5,7 @@ totsecs=(starthour*60*60)+(startminute*60)+plussecs;
 
 realhours=Math.floor(totmin/60);
 realmins=totmin-(realhours*60);
-realsecs=totsecs-(totmin*60);
+realsecs=Math.round(totsecs-(totmin*60));
 
 if(realmins<10){
   realmins="0"+realmins;
