@@ -16,7 +16,7 @@ if(realsecs<10){
 }
 
 if(secs<6*60*60){
-  "Kae started stream at 10:30:00AM and is streaming until "+realhours+":"+realmins+":"+realsecs+" CDT! kaestr1Hug";
+  "Kae started stream at 10:30:00 and is streaming until "+realhours+":"+realmins+":"+realsecs+" CDT! kaestr1Hug";
 }else{
-"We've reached the time cap! Kae is streaming until 4:30am CDT. smolYay bryce4Eyes";
+"We've reached the time cap! Kae is streaming until 4:30 CDT. smolYay bryce4Eyes";
 }
