@@ -15,6 +15,10 @@ if(realsecs<10){
   realsecs="0"+realsecs;
 }
 
+if(realhours>=24){
+  realhours=realhours-24;
+}
+
 if(secs<6*60*60){
   "Kae started stream at 10:30:00 and is streaming until "+realhours+":"+realmins+":"+realsecs+" CDT! kaestr1Hug";
 }else{
