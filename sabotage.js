@@ -1,4 +1,4 @@
-clips=['Try chair, chair2 light, leg, tail, stinky, split.',
+clips=['Try chair, chair2, light, leg, tail, stinky, split.',
        'https://clips.twitch.tv/ReliableDaintyEndiveOpieOP-_Bmh3xw6eLfEkH1A',
        'back again elizab34Smh https://clips.twitch.tv/SparklingKathishCiderDansGame-4iLBBnoY8U3G2erk',
        'the light!! pcrowNo https://clips.twitch.tv/TenderEndearingAardvarkPanicVis-DeKWyIgL_tA5tmBM',
