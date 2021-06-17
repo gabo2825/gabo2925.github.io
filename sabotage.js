@@ -18,6 +18,6 @@ else {
       clips[i]+" lycelYes";
     }
     else {
-      clips[Math.floor(Math.random()*clips.length)];
+      clips[Math.floor((Math.random()*(clips.length-1))+1)];
     }
 }
