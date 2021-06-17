@@ -1,4 +1,4 @@
-if (Math.random()<1/100) {
+if (Math.random() <= 1/100) {
     "Gabo has sabotaged this command smolEvil lycelChaos";
 }
 else {
