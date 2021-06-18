@@ -230,7 +230,7 @@ else {
 final=start+query+middle+trait+end;
 
 if (/^version$|^v$/i.test(query)){
-    final=" Added a 'millie' option. - June 17th 2021 at 19:15 UTC-5. "
+    final=" Fixed lycelLuvsign to lycelLuvSign . - June 17th 2021 at 19:15 UTC-5. "
 }
 else if (/^code$/i.test(query)){
     final=" Here's the code! https://gabo2825.github.io/cutie.js smolCheese "
