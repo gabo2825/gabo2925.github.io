@@ -11,7 +11,7 @@ const cool=['  kaestr1Cool    ',
             '  abbybaHug      ',
             '  elizab34Uwu    ',
             '  pcrowHug       ',
-            '  lycelLuvsign   ',
+            '  lycelLuvSign   ',
             '  abibeaHug      '];
 
 const cry=[' kaestr1Cry    ',
@@ -230,7 +230,7 @@ else {
 final=start+query+middle+trait+end;
 
 if (/^version$|^v$/i.test(query)){
-    final=" Added a 'millie' option. - March 29th 2021 at 21:34 UTC-5. "
+    final=" Added a 'millie' option. - June 17th 2021 at 19:15 UTC-5. "
 }
 else if (/^code$/i.test(query)){
     final=" Here's the code! https://gabo2825.github.io/cutie.js smolCheese "
