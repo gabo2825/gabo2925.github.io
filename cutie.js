@@ -141,7 +141,7 @@ else {
             
             else if (gaborandom <= 0.7) {
                 trait=" Unexpected Identifier. pcrowDerp ";
-                end=" uhh.. wha-? ";
+                end=" ";
             }
                 
         }
@@ -230,7 +230,7 @@ final=start+query+middle+trait+end;
 
 if (/^version$|^v$/i.test(query)){
     final=" Yes - June 17th 2021 at 19:15 UTC-5. ";
-    final=" Yes. ";
+    final=" Yes. Yes. ";
 }
 else if (/^code$/i.test(query)){
     final=" Here's the code! https://gabo2825.github.io/cutie.js smolCheese "
