@@ -52,7 +52,7 @@ if (query.length==0) {
 
 else {
 
-    if (/\bpoop\b|feces|fecal|shit|testbadword/i.test(query)) {
+    if (/\bpoop\b|feces|fecal|shit|testbadword|luncheon/i.test(query)) {
         start=" No, ";
         query=user;
         middle=" that's not "; 
@@ -229,7 +229,8 @@ else {
 final=start+query+middle+trait+end;
 
 if (/^version$|^v$/i.test(query)){
-    final=" Fixed lycelLuvsign to lycelLuvSign . - June 17th 2021 at 19:15 UTC-5. "
+    final=" Yes - June 17th 2021 at 19:15 UTC-5. ";
+    final=" Yes. ";
 }
 else if (/^code$/i.test(query)){
     final=" Here's the code! https://gabo2825.github.io/cutie.js smolCheese "
