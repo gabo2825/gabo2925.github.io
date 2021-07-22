@@ -1,5 +1,6 @@
-if (Math.random() <= 1/100) {
-    "Gabo has sabotaged this command smolEvil lycelChaos";
+if (Math.random() <= 1/1) {
+    cat=['Millie','Fitz'];
+    cat[Math.floor(Math.random()*cat.length)]+" has sabotaged this command millieJudge";
 }
 else {
     clips=['Try chair, chair2, light, leg, tail, stinky, split, reset, SWOONER, run, zoom, zoom2.',
