@@ -1,4 +1,4 @@
-if (Math.random() <= 1/1) {
+if (Math.random() <= 1/100) {
     cat=['Millie','Fitz'];
     cat[Math.floor(Math.random()*cat.length)]+" has sabotaged this command millieJudge";
 }
