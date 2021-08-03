@@ -65,7 +65,7 @@ const lul=[' elizab34LUL ',
            ' pcrowGiggle '];
 
 if (/^version$|^v$|^ver$/i.test(query)) {
-    " This thing is working. - August 4 2021 at 18:23 UTC-5. ";
+    " This thing is working. - August 4 2021 at 18:40 UTC-5. ";
 }
 else if (/^code$/i.test(query)) {
     " Here, check it out! https://gabo2825.github.io/twitch/kae/kaepets.js ";
@@ -77,52 +77,49 @@ else {
         if (/^Millie$|^m$/i.test(query)) {
             count++;
             if (count>=1) {
-                intro=" Millie is a ";
+                intro=" Millie is the ";
             }
             else {
                 count++
             }
             facts=["{Insert Millie Fact}"];
-            intro+" mad cat: "+facts[Math.floor(Math.random()*facts.length)];
+            intro+" demon cat lycelChaos : "+facts[Math.floor(Math.random()*facts.length)];
         }
         
         else if (/^Fitz$|^f$/i.test(query)) {
             count++;
             if (count>=1) {
-                intro=" Teyla is a ";
+                intro=" Fitz is the ";
             }
             else {
                 count++
             }
-		
-	    hoursfunny=Math.floor(Math.random()*6)+25;
-		
             facts=["{Insert Fitz Fact}"];
-            intro+" white cavalier King Charles Spaniel: "+facts[Math.floor(Math.random()*facts.length)];
+            intro+" big cat lycelW : "+facts[Math.floor(Math.random()*facts.length)];
         }
         
         else if (/^Nym$|^n$/i.test(query)) {
             count++;
             if (count>=1) {
-                intro=" Pippin is a ";
+                intro=" Nym is the ";
             }
             else {
                 count++
             }
             facts=["{Insert Nym Fact}"];
-            intro+" domestic short hair cat: "+facts[Math.floor(Math.random()*facts.length)];
+            intro+" 3 legged cutie: "+facts[Math.floor(Math.random()*facts.length)];
         }
 	    
 	else if (/^Gwen$|^g$/i.test(query)) {
             count++;
             if (count>=1) {
-                intro=" Pippin is a ";
+                intro=" Gwen is the dog, an ";
             }
             else {
                 count++
             }
             facts=["{Insert Gwen Fact}"];
-            intro+" domestic short hair cat: "+facts[Math.floor(Math.random()*facts.length)];
+            intro+" Australian Shepherd: "+facts[Math.floor(Math.random()*facts.length)];
         }
 	    
         else {
@@ -131,7 +128,7 @@ else {
                    "Nym",
 		   "Gwen"];
             query=query[Math.floor(Math.random()*query.length)];
-            intro=" Kae's got 4 cuties: Millie, Fitz, Nym, and Gwen!"+introemote[Math.floor(Math.random()*introemote.length)]+"Here's a fact about "+query+", Abi's ";
+            intro=" Kae's got 4 cuties: Millie, Fitz, Nym, and Gwen!"+introemote[Math.floor(Math.random()*introemote.length)]+"Here's a fact about "+query+", the ";
             count--;
         }
     }   
