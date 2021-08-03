@@ -1,8 +1,8 @@
 /*kaepets.js by Gabo2825. Code for Nightbot.*/
 /*Used in kaestrain.*/
-const abi=[" abibeaWave ",
-           " abibeaLurk ",
-           " abibeaHug "];
+const introemote=[" kaestr1Hug ",
+                  " kaestr1Cool ",
+                  " kaestr1Eyes "];
 
 const love=[' elizab34Uwu ',
             ' kaestr1Hug ',
@@ -68,11 +68,12 @@ const lul=[' elizab34LUL ',
            ' pcrowGiggle '];
 
 if (/^version$|^v$|^ver$/i.test(query)) {
-    " - August x 2021 at xx:xx UTC-5. ";
+    " This thing is working. - August 4 2021 at 18:23 UTC-5. ";
 }
 else if (/^code$/i.test(query)) {
     " Here, check it out! https://gabo2825.github.io/twitch/kae/kaepets.js ";
 }
+
 else {
     count=0;
     while (count<1) {
@@ -126,12 +127,14 @@ else {
             facts=["c"];
             intro+" domestic short hair cat: "+facts[Math.floor(Math.random()*facts.length)];
         }
+	    
         else {
-            query=["Ronon",
-                   "Pippin",
-                   "Teyla"];
+            query=["Millie",
+                   "Fitz",
+                   "Nym",
+		   "Gwen"];
             query=query[Math.floor(Math.random()*query.length)];
-            intro=" Abi has 3 pets: Ronon, Teyla, and Pippin!"+abi[Math.floor(Math.random()*abi.length)]+"Here's a fact about "+query+", Abi's ";
+            intro=" Kae's got 4 cuties: Millie, Fitz, Nym, and Gwen!"+introemote[Math.floor(Math.random()*introemote.length)]+"Here's a fact about "+query+", Abi's ";
             count--;
         }
     }   
