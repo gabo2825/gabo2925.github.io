@@ -77,13 +77,13 @@ else {
         if (/^Millie$|^m$/i.test(query)) {
             count++;
             if (count>=1) {
-                intro=" Ronon is a ";
+                intro=" Millie is a ";
             }
             else {
                 count++
             }
-            facts=["a"];
-            intro+" red cavalier King Charles Spaniel: "+facts[Math.floor(Math.random()*facts.length)];
+            facts=["{Insert Millie Fact}"];
+            intro+" mad cat: "+facts[Math.floor(Math.random()*facts.length)];
         }
         
         else if (/^Fitz$|^f$/i.test(query)) {
@@ -97,7 +97,7 @@ else {
 		
 	    hoursfunny=Math.floor(Math.random()*6)+25;
 		
-            facts=["b"];
+            facts=["{Insert Fitz Fact}"];
             intro+" white cavalier King Charles Spaniel: "+facts[Math.floor(Math.random()*facts.length)];
         }
         
@@ -109,7 +109,7 @@ else {
             else {
                 count++
             }
-            facts=["c"];
+            facts=["{Insert Nym Fact}"];
             intro+" domestic short hair cat: "+facts[Math.floor(Math.random()*facts.length)];
         }
 	    
@@ -121,7 +121,7 @@ else {
             else {
                 count++
             }
-            facts=["c"];
+            facts=["{Insert Gwen Fact}"];
             intro+" domestic short hair cat: "+facts[Math.floor(Math.random()*facts.length)];
         }
 	    
