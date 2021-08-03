@@ -1,4 +1,5 @@
-/*abipets.js by Gabo2825. Code for Nightbot.*/
+/*kaepets.js by Gabo2825. Code for Nightbot.*/
+/*Used in kaestrain.*/
 const abi=[" abibeaWave ",
            " abibeaLurk ",
            " abibeaHug "];
@@ -67,15 +68,15 @@ const lul=[' elizab34LUL ',
            ' pcrowGiggle '];
 
 if (/^version$|^v$|^ver$/i.test(query)) {
-    " Added message for Ronon and added a funny randomizer! also added a semi colon and fixed a dumb mistake. - May 8 2021 at 22:32 UTC-5. ";
+    " - August x 2021 at xx:xx UTC-5. ";
 }
 else if (/^code$/i.test(query)) {
-    " Here, check it out! https://gabo2825.github.io/abipets.js ";
+    " Here, check it out! https://gabo2825.github.io/twitch/kae/kaepets.js ";
 }
 else {
     count=0;
     while (count<1) {
-        if (/^ronon$|^r$/i.test(query)) {
+        if (/^Millie$|^m$/i.test(query)) {
             count++;
             if (count>=1) {
                 intro=" Ronon is a ";
@@ -83,19 +84,11 @@ else {
             else {
                 count++
             }
-            facts=[" He doesn’t care about anything except for food and naps. "+nom[Math.floor(Math.random()*nom.length)]+sleep[Math.floor(Math.random()*sleep.length)],
-                   " His name comes from the SciFi series: Stargate Atlantis! "+omg[Math.floor(Math.random()*omg.length)],
-		   " He has three spots on his neck that will make his leg go brr. "+lul[Math.floor(Math.random()*lul.length)],
-	           " He loves to lick walls. cbcLick "+lul[Math.floor(Math.random()*lul.length)],
-		   " He eats the darnedest things! "+nom[Math.floor(Math.random()*nom.length)]+cry[Math.floor(Math.random()*cry.length)],
-                   " He broke his leg being 6 months old falling off from a bed. "+cry[Math.floor(Math.random()*cry.length)],
-                   " His birthday is February 4th, Teyla's is October 4th, and Pippin's is September 4th. "+omg[Math.floor(Math.random()*omg.length)],
-                   " Did ya know he takes pills in marshmallows?? "+omg[Math.floor(Math.random()*omg.length)],
-                   " He learned to open the dishwasher and would carry spoons on his mouth. "+lul[Math.floor(Math.random()*lul.length)]];
+            facts=["a"];
             intro+" red cavalier King Charles Spaniel: "+facts[Math.floor(Math.random()*facts.length)];
         }
         
-        else if (/^teyla$|^t$/i.test(query)) {
+        else if (/^Fitz$|^f$/i.test(query)) {
             count++;
             if (count>=1) {
                 intro=" Teyla is a ";
@@ -106,19 +99,11 @@ else {
 		
 	    hoursfunny=Math.floor(Math.random()*6)+25;
 		
-            facts=[" She once found a toy in a cabinet 5’ above her head just by smell alone. "+omg[Math.floor(Math.random()*omg.length)],
-                   " She loves sneezing on people's faces. "+lul[Math.floor(Math.random()*lul.length)],
-		   " In the fall she covers herself in leaves to try to become a giant leaf. "+sleep[Math.floor(Math.random()*sleep.length)],
-		   " She's obsessed with popcorn! "+omg[Math.floor(Math.random()*omg.length)]+" it’s her favorite human food to beg for. "+nom[Math.floor(Math.random()*nom.length)],
-                   " She thinks she should be pet "+hoursfunny+" hours a day, 8 days a week. "+lul[Math.floor(Math.random()*lul.length)]+" But doesn't she? "+love[Math.floor(Math.random()*love.length)],
-                   " Her name comes from the SciFi series: Stargate Atlantis! "+omg[Math.floor(Math.random()*omg.length)],
-                   " Her birthday is October 4th, Ronon's is February 4th, and Pippin's is September 4th. "+omg[Math.floor(Math.random()*omg.length)],
-		   " She demands to sit on Abi's lap 30 hours a day. "+sleep[Math.floor(Math.random()*sleep.length)],
-                   " She spins to the left (only to the left) when she's excited "+lul[Math.floor(Math.random()*lul.length)]];
+            facts=["b"];
             intro+" white cavalier King Charles Spaniel: "+facts[Math.floor(Math.random()*facts.length)];
         }
         
-        else if (/^pippin$|^p$/i.test(query)) {
+        else if (/^Nym$|^n$/i.test(query)) {
             count++;
             if (count>=1) {
                 intro=" Pippin is a ";
@@ -126,12 +111,19 @@ else {
             else {
                 count++
             }
-            facts=[" Despite being free fed and given wet food twice a day he wants you to know he’s still starving. "+nom[Math.floor(Math.random()*nom.length)],
-                   " He once activated emote only mode in Kae's chat. "+lul[Math.floor(Math.random()*lul.length)],
-		   " He's not a fan of the outdoors. "+love[Math.floor(Math.random()*love.length)],
-		   " When he was rescued he weighed 4lbs., now he’s almost 7lbs.! That’s progress "+omg[Math.floor(Math.random()*omg.length)]+love[Math.floor(Math.random()*love.length)],
-                   " His birthday is September 4th, Teyla's is October 4th, and Ronon's is February 4th. "+omg[Math.floor(Math.random()*omg.length)],
-                   " Did ya know his name was originally Dr. Pepper?? "+omg[Math.floor(Math.random()*omg.length)]];
+            facts=["c"];
+            intro+" domestic short hair cat: "+facts[Math.floor(Math.random()*facts.length)];
+        }
+	    
+	else if (/^Gwen$|^g$/i.test(query)) {
+            count++;
+            if (count>=1) {
+                intro=" Pippin is a ";
+            }
+            else {
+                count++
+            }
+            facts=["c"];
             intro+" domestic short hair cat: "+facts[Math.floor(Math.random()*facts.length)];
         }
         else {
