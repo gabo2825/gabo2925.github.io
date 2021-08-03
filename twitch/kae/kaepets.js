@@ -95,7 +95,7 @@ else {
                 count++
             }
             facts=["{Insert Fitz Fact}"];
-            intro+" big cat lycelW : "+facts[Math.floor(Math.random()*facts.length)];
+            intro+" big cat widepeepoHappy : "+facts[Math.floor(Math.random()*facts.length)];
         }
         
         else if (/^Nym$|^n$/i.test(query)) {
