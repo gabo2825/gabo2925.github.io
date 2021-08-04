@@ -146,7 +146,7 @@ else {
             }
             facts=[" One of her eyes is half brown half blue. "+love[Math.floor(Math.random()*love.length)],
 		   " She tries herding the cats. "+lul[Math.floor(Math.random()*lul.length)],
-		   " She always turn off Kae's computer whenever she lies under the desk. "+omg[Math.floor(Math.random()*omg.length)]];
+		   " She always turns off Kae's computer whenever she lies under the desk. "+omg[Math.floor(Math.random()*omg.length)]];
             intro+" Australian Shepherd SWOONER : "+facts[Math.floor(Math.random()*facts.length)];
         }
 	    
