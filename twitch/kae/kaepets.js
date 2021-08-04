@@ -49,8 +49,7 @@ const omg=[' smolWow     ',
            ' lycelAAA    ',
            ' kaestr1Eyes ',
            ' maizEyes    ',
-           ' maizBlush   ',
-           ' abibeaLurk  '];
+           ' maizBlush   '];
 
 const sleep=[' pcrowCozy ',
              ' pcrowZ ',
