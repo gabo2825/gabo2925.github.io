@@ -30,7 +30,7 @@ const cool=["kaestr1Cool",
             "archit3Cool",
             "CoolCat",
             "maizCool",
-            "therea1896Cool"]
+            "therea1896Cool"];
 
 const sad=[' kaestr1Cry    ',
            ' elizab34Hands ',
