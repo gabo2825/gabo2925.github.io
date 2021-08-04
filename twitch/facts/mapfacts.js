@@ -1,7 +1,9 @@
 /*Map factsthanks to KayOdds*/
 /*Used in KayOdds*/
 
-const facts=[" {Insert Fact} "];
+const facts=[" Map fact #1 ",
+             " Map fact #2 ",
+             " Map fact #3 "];
 
 const didntknow=[" Well I didn't!!                ",
                  " HUHH?? I DIDN'T KNOW THAT!!    ",
@@ -18,14 +20,12 @@ const omg=[' smolWow     ',
            ' smolD       ',
            ' bryce4Eyes  ',
            ' lycelW      ',
-           ' lycelAAA    ',
            ' smolBrain   ',
            ' pcrowBrain  ',
            ' cjyaPog     ',
            ' kaestr1Eyes ',
            ' maizEyes    ',
            ' maizBlush   ',
-           ' abibeaLurk  ',
            ' elizab34Pog '];
 
 
@@ -52,7 +52,7 @@ else {
   }
   
   if (/^version$|^v$/i.test(query)) {
-      final=" This should work. - Aug 3 2021 at 20:36 UTC-5. ";
+      final=" This should work. - Aug 3 2021 at 20:40 UTC-5. ";
   }
   
   if (/^code$/i.test(query)) {
