@@ -29,8 +29,7 @@ const cool=["kaestr1Cool",
             "pcrowCool",
             "archit3Cool",
             "CoolCat",
-            "maizCool",
-            "therea1896Cool"];
+            "maizCool"];
 
 const sad=[' kaestr1Cry    ',
            ' elizab34Hands ',
