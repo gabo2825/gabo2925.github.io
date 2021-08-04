@@ -79,7 +79,7 @@ const evil=[' pcrowPanic ',
             ' pcrowEvil '];
 
 if (/^version$|^v$|^ver$/i.test(query)) {
-    " Should be completely functional. - August 3 2021 at 19:14 UTC-5. ";
+    " Should be completely functional. - August 3 2021 at 21:56 UTC-5. ";
 }
 else if (/^code$/i.test(query)) {
     " Here, check it out! https://gabo2825.github.io/twitch/kae/kaepets.js ";
@@ -112,7 +112,8 @@ else {
             else {
                 count++
             }
-            facts=[" He is incredibly big. "+omg[Math.floor(Math.random()*omg.length)]+love[Math.floor(Math.random()*love.length)],
+            facts=[" NOT MILLIE! smolFlushed ",
+		   " He is incredibly big. "+omg[Math.floor(Math.random()*omg.length)]+love[Math.floor(Math.random()*love.length)],
 		   " He loves to cuddle. "+love[Math.floor(Math.random()*love.length)],
 		   " He, for some reason, loves sleeping on top of Kae's dresser. "+lul[Math.floor(Math.random()*lul.length)]+sleep[Math.floor(Math.random()*sleep.length)],
 		   " Millie absolutely despises him. "+evil[Math.floor(Math.random()*evil.length)],
