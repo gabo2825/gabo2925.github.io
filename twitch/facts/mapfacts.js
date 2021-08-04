@@ -1,9 +1,9 @@
 /*Map factsthanks to KayOdds*/
 /*Used in KayOdds*/
 
-const facts=[" Map fact #1 ",
-             " Map fact #2 ",
-             " Map fact #3 "];
+const facts=[" {Map fact #1}? ",
+             " {Map fact #2}? ",
+             " {Map fact #3}? "];
 
 const didntknow=[" Well I didn't!!                ",
                  " HUHH?? I DIDN'T KNOW THAT!!    ",
