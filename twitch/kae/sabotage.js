@@ -16,9 +16,10 @@ else {
            'Fitz noo pcrowPanic https://clips.twitch.tv/FrigidPolishedHyenaPrimeMe-CZGbLlzOU5HSrr5y',
            'smolZoom https://clips.twitch.tv/InquisitiveHorribleMilkRlyTho-aKf_U8BKHW59_vVH',
            'WoweeSpeed https://clips.twitch.tv/PlumpOnerousCattleAMPEnergy-PkdhV8nxJnel_JBx',
-           'CAUGHT IN 4K! millieJudge https://clips.twitch.tv/KathishAmorphousCroissantUWot-8B9uPfCS3DCnkSXN'];
+           'CAUGHT IN 4K! millieJudge https://clips.twitch.tv/KathishAmorphousCroissantUWot-8B9uPfCS3DCnkSXN',
+           'MILLIE! https://clips.twitch.tv/SneakyMoralStorkPartyTime-zpXZS4gncWrx0dP8'];
 
-    c=['terms','chair','chair2','light','leg','tail','stinky','split','reset','swooner','run','zoom','zoom2','attack'];
+    c=['terms','chair','chair2','light','leg','tail','stinky','split','reset','swooner','run','zoom','zoom2','attack','attack2'];
     i=c.indexOf(q);
     if(i!=-1) {
       clips[i]+" lycelYes";
