@@ -3,7 +3,7 @@ if (Math.random() <= 1/100) {
     cat[Math.floor(Math.random()*cat.length)]+" has sabotaged this command millieJudge";
 }
 else {
-    clips=['Try chair, chair2, light, leg, tail, stinky, split, reset, SWOONER, run, zoom, zoom2.',
+    clips=['Try chair, chair2, light, leg, tail, stinky, split, reset, swooner, run, zoom, zoom2, attack, attack2. bite, hacker.',
            'scratch scratch https://clips.twitch.tv/ReliableDaintyEndiveOpieOP-_Bmh3xw6eLfEkH1A',
            'back again elizab34Smh ppOverheat https://clips.twitch.tv/AthleticEphemeralToothSmoocherZ-IIpySMv74_thSJSi',
            'the light!! pcrowNo https://clips.twitch.tv/TenderEndearingAardvarkPanicVis-DeKWyIgL_tA5tmBM',
