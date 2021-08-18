@@ -101,7 +101,8 @@ else {
 		   " She is very VERY soft. "+love[Math.floor(Math.random()*love.length)],
 		   " She really loves humans, but she despises animals. "+omg[Math.floor(Math.random()*omg.length)],
 		   " She doesn't really like hugs, but we still love her. "+love[Math.floor(Math.random()*love.length)],
-		   " She zooms like she's possessed. smolZoom "+omg[Math.floor(Math.random()*omg.length)]];
+		   " She zooms like she's possessed. smolZoom "+omg[Math.floor(Math.random()*omg.length)],
+		   " She likes attention, a LOT! "+sleep[Math.floor(Math.random()*sleep.length)]];
             intro+" demon cat lycelChaos : "+facts[Math.floor(Math.random()*facts.length)];
         }
         
