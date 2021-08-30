@@ -79,7 +79,7 @@ const evil=[' pcrowPanic ',
             ' pcrowEvil '];
 
 if (/^version$|^v$|^ver$/i.test(query)) {
-    " New message for !millie. - August 3 2021 at 21:56 UTC-5. ";
+    " New emote variations for !millie. - August 29 2021 at 21:19 UTC-5. ";
 }
 else if (/^code$/i.test(query)) {
     " Here, check it out! https://gabo2825.github.io/twitch/kae/kaepets.js ";
@@ -96,6 +96,7 @@ else {
             else {
                 count++
             }
+	    millieemote=['lycelChaos','kaestr1Hug','millieW','millieJudge'];
             facts=[" She has a bad attitude problem. "+omg[Math.floor(Math.random()*omg.length)],
 		   " She has a seizure disorder, so she has to take medicine twice a day. "+pout[Math.floor(Math.random()*pout.length)],
 		   " She is very VERY soft. "+love[Math.floor(Math.random()*love.length)],
@@ -103,7 +104,7 @@ else {
 		   " She doesn't really like hugs, but we still love her. "+love[Math.floor(Math.random()*love.length)],
 		   " She zooms like she's possessed. smolZoom "+omg[Math.floor(Math.random()*omg.length)],
 		   " She likes attention, a LOT! "+sleep[Math.floor(Math.random()*sleep.length)]];
-            intro+" demon cat lycelChaos : "+facts[Math.floor(Math.random()*facts.length)];
+            intro+" demon cat "+millieemote[Math.floor(Math.random()*millieemote.length)]+" : "+facts[Math.floor(Math.random()*facts.length)];
         }
         
         else if (/^Fitz$|^f$/i.test(query)) {
