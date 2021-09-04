@@ -108,7 +108,7 @@ else {
 		   " She really loves humans, but she despises animals. "+omg[Math.floor(Math.random()*omg.length)],
 		   " She doesn't really like hugs, but we still love her. "+love[Math.floor(Math.random()*love.length)],
 		   " She zooms like she's possessed. smolZoom "+omg[Math.floor(Math.random()*omg.length)],
-		   " She likes attention, a LOT! "+sleep[Math.floor(Math.random()*sleep.length)]
+		   " She likes attention, a LOT! "+sleep[Math.floor(Math.random()*sleep.length)],
 		   " She is scared of EVERYTHING!! "+omg[Math.floor(Math.random()*omg.length)]];
             intro+" demon cat "+millieemote[Math.floor(Math.random()*millieemote.length)]+" : "+facts[Math.floor(Math.random()*facts.length)];
         }
