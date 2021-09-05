@@ -74,7 +74,6 @@ const evil=[' pcrowPanic ',
 	    ' smolPanic ',
 	    ' lycelChaos ',
 	    ' lycelStab ',
-	    ' lycelEvil ',
             ' smolEvil ',
             ' pcrowEvil '];
 
