@@ -83,7 +83,7 @@ const mad=[' millieMad ',
 	   ' smolGrump '];
 
 if (/^version$|^v$|^ver$/i.test(query)) {
-    " New message and emote variations for !millie. - September 2 2021 at 17:55 UTC-5. ";
+    " New message for !millie. - September 8 2021 at 17:19 UTC-5. ";
 }
 else if (/^code$/i.test(query)) {
     " Here, check it out! https://gabo2825.github.io/twitch/kae/kaepets.js ";
@@ -108,6 +108,7 @@ else {
 		   " She doesn't really like hugs, but we still love her. "+love[Math.floor(Math.random()*love.length)],
 		   " She zooms like she's possessed. smolZoom "+omg[Math.floor(Math.random()*omg.length)],
 		   " She likes attention, a LOT! "+sleep[Math.floor(Math.random()*sleep.length)],
+		   " She loooves to make biscuits on her blankie "+love[Math.floor(Math.random()*love.length)],
 		   " She is scared of EVERYTHING!! "+omg[Math.floor(Math.random()*omg.length)]];
             intro+" demon cat "+millieemote[Math.floor(Math.random()*millieemote.length)]+" : "+facts[Math.floor(Math.random()*facts.length)];
         }
