@@ -18,10 +18,11 @@ else {
            'WoweeSpeed https://clips.twitch.tv/PlumpOnerousCattleAMPEnergy-PkdhV8nxJnel_JBx',
            'CAUGHT IN 4K! millieJudge https://clips.twitch.tv/KathishAmorphousCroissantUWot-8B9uPfCS3DCnkSXN',
            'MILLIE! https://clips.twitch.tv/SneakyMoralStorkPartyTime-zpXZS4gncWrx0dP8',
+           'HELLO??? https://clips.twitch.tv/QuaintArtsyYamGivePLZ-r7qH3YlkfH-T56fR',
            'MILLIE STAPH pcrowScream https://clips.twitch.tv/RichFrigidCarrotTooSpicy-zvrJW3LslydJL1Qy',
            'WoweeHacker https://clips.twitch.tv/GoodAnnoyingOctopusKlappa-DP7qddhSegbvNgoT'];
 
-    c=['terms','chair','chair2','light','leg','tail','stinky','split','reset','swooner','run','zoom','zoom2','attack','attack2','bite','hacker'];
+    c=['terms','chair','chair2','light','leg','tail','stinky','split','reset','swooner','run','zoom','zoom2','attack','attack2','sock','bite','hacker'];
     i=c.indexOf(q);
     if(i!=-1) {
       clips[i]+" lycelYes";
