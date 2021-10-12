@@ -67,7 +67,7 @@ const lul=[' elizab34LUL ',
            ' pcrowGiggle '];
 
 if (/^version$|^v$|^ver$/i.test(query)) {
-    " Added message for Ronon and added a funny randomizer! also added a semi colon and fixed a dumb mistake. - May 8 2021 at 22:32 UTC-5. ";
+    " Added message for Teyla! - October 12 2021 at 17:06 UTC-5. ";
 }
 else if (/^code$/i.test(query)) {
     " Here, check it out! https://gabo2825.github.io/abipets.js ";
@@ -114,7 +114,9 @@ else {
                    " Her name comes from the SciFi series: Stargate Atlantis! "+omg[Math.floor(Math.random()*omg.length)],
                    " Her birthday is October 4th, Ronon's is February 4th, and Pippin's is September 4th. "+omg[Math.floor(Math.random()*omg.length)],
 		   " She demands to sit on Abi's lap 30 hours a day. "+sleep[Math.floor(Math.random()*sleep.length)],
-                   " She spins to the left (only to the left) when she's excited "+lul[Math.floor(Math.random()*lul.length)]];
+                   " She spins to the left (and only to the left!) when she's excited "+lul[Math.floor(Math.random()*lul.length)],
+		   " Any hairstyle she gets will only last for like 8 hours "+lul[Math.floor(Math.random()*lul.length)]
+		  ];
             intro+" white cavalier King Charles Spaniel: "+facts[Math.floor(Math.random()*facts.length)];
         }
         
