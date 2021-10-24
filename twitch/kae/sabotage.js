@@ -37,7 +37,7 @@ else {
            'peepoLeave https://clips.twitch.tv/UnusualFaithfulShallotNotLikeThis-E4fqvSz_7NiBNJvM'];
     
     if(e!=-1) {
-        clips[e]+" lycelYes";
+        clips[e]+" lycelYes"+e;
     }
     else {
         clips[Math.floor((Math.random()*(clips.length-1))+1)];
