@@ -10,8 +10,12 @@ else {
     a=' ';
     while (i<terms.length) {
         a=a+terms[i];
+        if(0<i<(terms.length-1)){
+            a=a+', ';
+        }
         i++;
     }
+    a=a+'.';
     
     clips=['Try '+a+'.',
            'scratch scratch https://clips.twitch.tv/ReliableDaintyEndiveOpieOP-_Bmh3xw6eLfEkH1A',
