@@ -3,6 +3,9 @@ if (Math.random() <= 1/100) {
     cat[Math.floor(Math.random()*cat.length)]+" has sabotaged this command millieJudge";
 }
 else {
+    c=['terms','chair','chair2','light','leg','tail','stinky','split','reset','swooner','run','zoom','zoom2','attack','attack2','sock','bite','hacker','kiss','growl','surprise','leave'];
+    i=c.indexOf(q);
+    
     clips=['Try chair, chair2, light, leg, tail, stinky, split, reset, swooner, run, zoom, zoom2, attack, attack2. bite, hacker.',
            'scratch scratch https://clips.twitch.tv/ReliableDaintyEndiveOpieOP-_Bmh3xw6eLfEkH1A',
            'back again elizab34Smh ppOverheat https://clips.twitch.tv/AthleticEphemeralToothSmoocherZ-IIpySMv74_thSJSi',
@@ -25,9 +28,7 @@ else {
            'SHE- smolD millieMad https://clips.twitch.tv/ImpartialTenderNigiriPastaThat-4UU6qAgSkKUIH7Y4',
            'lycelRage https://clips.twitch.tv/MoistChillyOpossumGOWSkull-G579pcyJAIQgmOUM',
            'peepoLeave https://clips.twitch.tv/UnusualFaithfulShallotNotLikeThis-E4fqvSz_7NiBNJvM'];
-
-    c=['terms','chair','chair2','light','leg','tail','stinky','split','reset','swooner','run','zoom','zoom2','attack','attack2','sock','bite','hacker','kiss','growl','surprise','leave'];
-    i=c.indexOf(q);
+    
     if(i!=-1) {
       clips[i]+" lycelYes";
     }
