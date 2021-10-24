@@ -9,7 +9,7 @@ else {
     i=0;
     a=' ';
     while (i<terms.length) {
-        a=a+terms[i];
+        a=a+terms[i]+', ';
         i++;
     }
     
