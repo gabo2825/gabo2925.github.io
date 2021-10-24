@@ -10,7 +10,7 @@ else {
     a='';
     while (i<terms.length) {
         a=a+terms[i];
-        if(i<(terms.length)){
+        if(i<(terms.length-1)){
             a=a+', ';
         }
         i++;
