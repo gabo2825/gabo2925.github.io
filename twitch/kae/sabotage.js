@@ -36,7 +36,7 @@ else {
            'lycelRage https://clips.twitch.tv/MoistChillyOpossumGOWSkull-G579pcyJAIQgmOUM',
            'peepoLeave https://clips.twitch.tv/UnusualFaithfulShallotNotLikeThis-E4fqvSz_7NiBNJvM'];
     
-    if(i!=-1) {
+    if(e!=-1) {
         clips[e]+" lycelYes";
     }
     else {
