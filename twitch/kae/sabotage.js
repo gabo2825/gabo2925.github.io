@@ -7,7 +7,7 @@ else {
     e=terms.indexOf(q);
     
     i=0;
-    a='';
+    a=' ';
     while (i<terms.length) {
         a=a+terms[i];
         i++;
