@@ -21,7 +21,7 @@ else {
            'HELLO??? https://clips.twitch.tv/QuaintArtsyYamGivePLZ-r7qH3YlkfH-T56fR',
            'MILLIE STAPH pcrowScream https://clips.twitch.tv/RichFrigidCarrotTooSpicy-zvrJW3LslydJL1Qy',
            'WoweeHacker https://clips.twitch.tv/GoodAnnoyingOctopusKlappa-DP7qddhSegbvNgoT',
-           'catKiss https://clips.twitch.tv/EsteemedAnnoyingGarageNerfRedBlaster-lZyfT5itWZ7g8n-B',
+           'catKISS https://clips.twitch.tv/EsteemedAnnoyingGarageNerfRedBlaster-lZyfT5itWZ7g8n-B',
            'SHE- smolD millieMad https://clips.twitch.tv/ImpartialTenderNigiriPastaThat-4UU6qAgSkKUIH7Y4',
            'lycelRage https://clips.twitch.tv/MoistChillyOpossumGOWSkull-G579pcyJAIQgmOUM',
            'peepoLeave https://clips.twitch.tv/UnusualFaithfulShallotNotLikeThis-E4fqvSz_7NiBNJvM'];
