@@ -6,11 +6,11 @@ else {
     terms=['terms','chair','chair2','light','leg','tail','stinky','split','reset','swooner','run','zoom','zoom2','attack','attack2','sock','bite','hacker','kiss','growl','surprise','leave'];
     e=terms.indexOf(q);
     
-    i=0;
+    i=1;
     a='';
     while (i<terms.length) {
         a=a+terms[i];
-        if(i<(terms.length-1)){
+        if(i<(terms.length)){
             a=a+', ';
         }
         i++;
