@@ -1,9 +1,9 @@
 if (Math.random() <= 1/100) {
     cat=['Millie','Fitz'];
-    cat[Math.floor(Math.random()*cat.length)]+" has sabotaged this command millieJudge";
+    cat["kaestr1S "+Math.floor(Math.random()*cat.length)]+" sabotaged this command millieJudge";
 }
 else {
-    terms=['terms','chair','chair2','light','leg','tail','stinky','split','reset','swooner','run','zoom','zoom2','attack','attack2','sock','bite','hacker','kiss','growl','surprise','leave'];
+    terms=['terms','chair','chair2','light','leg','tail','stinky','split','reset','swooner','run','zoom','zoom2','attack','attack2','sock','bite','hacker','kiss','growl','surprise','leave','raid'];
     e=terms.indexOf(q);
     
     i=1;
@@ -37,7 +37,8 @@ else {
            'catKISS https://clips.twitch.tv/EsteemedAnnoyingGarageNerfRedBlaster-lZyfT5itWZ7g8n-B',
            'SHE- smolD millieMad https://clips.twitch.tv/ImpartialTenderNigiriPastaThat-4UU6qAgSkKUIH7Y4',
            'lycelRage https://clips.twitch.tv/MoistChillyOpossumGOWSkull-G579pcyJAIQgmOUM',
-           'peepoLeave https://clips.twitch.tv/UnusualFaithfulShallotNotLikeThis-E4fqvSz_7NiBNJvM'];
+           'peepoLeave https://clips.twitch.tv/UnusualFaithfulShallotNotLikeThis-E4fqvSz_7NiBNJvM',
+           'she pressed the hate raid button!! pcrowPanic thehttps://clips.twitch.tv/HumbleKawaiiCasetteCurseLit-ZRng4fN0ZOH7tSAK'];
     
     if(e!=-1) {
         clips[e]+" lycelYes";
