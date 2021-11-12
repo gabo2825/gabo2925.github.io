@@ -2,7 +2,7 @@ if (Math.random() <= 1/100) {
     "pp peepoHappy";
 }
 else {
-    terms=['terms','a','b','c'];
+    terms=['comms','a','b','c'];
     e=terms.indexOf(q);
     
     i=1;
@@ -15,7 +15,7 @@ else {
         i++;
     }
     
-    comms=['Try '+a+'.',
+    comms=['Try '+a+'. Peepo',
            'yes ruby',
            'b',
            'yes'];
