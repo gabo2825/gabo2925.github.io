@@ -24,6 +24,6 @@ else {
         comms[e]+" lycelYes";
     }
     else {
-        comms[Math.floor((Math.random()*(clips.length-1))+1)];
+        comms[Math.floor((Math.random()*(comms.length-1))+1)];
     }
 }
