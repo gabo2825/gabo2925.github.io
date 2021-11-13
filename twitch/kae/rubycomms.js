@@ -2,7 +2,7 @@ if (Math.random() <= 1/5) {
     "pp Peepo ( smolD )";
 }
 else {
-    terms=['comms','ruby','roobify','c'];
+    terms=['comms','ruby','xrby1','roobify','blameruby'];
     e=terms.indexOf(q);
     
     i=1;
