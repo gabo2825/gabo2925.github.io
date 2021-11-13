@@ -29,10 +29,19 @@ else {
     }
     
     
-    xrby1ruby=['thingie 1',
-               'thingie 2',
-               'thingie 3',
-               'thingi4 '];
+    xrby1ruby=['Red guy',
+               'Frisbee',
+               'Uwuby widepeepoHappy',
+               'W:ohjby',
+               'Best friends with cicadas',
+               '6 feet tall at best NODDERS',
+               'Mamn',
+               'Roobs',
+               'Nerd',
+               'Fitzerby or something idk smolShrug',
+               'Mod that has been here the longest, for some reason',
+               'Horse Girl',
+               'Wtf red guy please eat Smadge'];
     
 
     comms=['Try '+a+'.',
