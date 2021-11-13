@@ -31,8 +31,6 @@ else {
     comms=['Try '+a+'.',
            "Ruby is cool as a cucumber! He can roast me, but he won't hesitate to abbybaBop if you do - one stink to another stink",
            'execute xrby1',
-           gab=1+1;
-           gab;,
            'DAMN IT RUBY this is all your FOOKING fault smolGrump',
            'execute roobify',
            'current query is: "'+query+'".'];
