@@ -11,8 +11,12 @@ else {
     i=1;
     query='';
     while (i<qsplit.length) {
-        query=query+qsplit[i]+" ";
+        query=query+qsplit[i];
         i++;
+        while (i<qsplit.length) {
+            query=query+" ";
+            i++;
+        }
     }
     
     i=1;
