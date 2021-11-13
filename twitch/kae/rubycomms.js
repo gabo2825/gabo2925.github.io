@@ -1,8 +1,8 @@
-if (Math.random() <= 1/5) {
+if (Math.random() <= 1/1000) {
     "pp Peepo ( smolD )";
 }
 else {
-    terms=['comms','ruby','xrby1','roobify','blameruby'];
+    terms=['commands','ruby','xrby1','roobify','blameruby'];
     
     qsplit=q.split(' ');
     
