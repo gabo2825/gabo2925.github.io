@@ -47,7 +47,7 @@ else {
     
     comms=['Try '+a+'.',
            "Ruby is cool as a cucumber! He can roast me, but he won't hesitate to abbybaBop if you do - one stink to another stink",
-           xrby1ruby[Math.floor(Math.random() * xrby1ruby.length)]+"work",
+           xrby1ruby[Math.floor(Math.random()*xrby1ruby.length)],
            'DAMN IT RUBY this is all your FOOKING fault smolGrump',
            'execute roobify',
            'current query is: "'+query+'".'];
