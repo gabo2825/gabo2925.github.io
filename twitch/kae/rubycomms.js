@@ -46,11 +46,11 @@ else {
     
     
     
-    roobifytext=if (query.length===0) {
-        query = 'xRby1';
+    if (query.length===0) {
+        roobifytext='xRby1';
     }
     else {
-        query = 'x' + query.replace(/[aeiou@]/gi,'') + '1';
+        roobifytext='x' + query.replace(/[aeiou@]/gi,'') + '1';
     }
     
     
