@@ -13,7 +13,7 @@ else {
     while (i<qsplit.length) {
         query=query+qsplit[i];
         i++;
-        while (i<qsplit.length) {
+        if (i<qsplit.length) {
             query=query+" ";
             i++;
         }
