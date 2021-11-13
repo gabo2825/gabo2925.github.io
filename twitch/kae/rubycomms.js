@@ -28,7 +28,7 @@ else {
         i++;
     }
     
-    
+    // !xrby1 code //
     xrby1ruby=['Red guy',
                'Frisbee',
                'Uwuby widepeepoHappy',
@@ -42,6 +42,8 @@ else {
                'Mod that has been here the longest, for some reason',
                'Horse Girl',
                'Wtf red guy please eat Smadge'];
+    
+    
     
 
     comms=['Try '+a+'.',
