@@ -11,7 +11,7 @@ else {
     i=1;
     query='';
     while (i<qsplit.length) {
-        query=query+terms[i];
+        query=query+qsplit[i];
         i++;
     }
     
