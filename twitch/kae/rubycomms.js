@@ -66,6 +66,6 @@ else {
         comms[e]+" Peepo";
     }
     else {
-        comms[Math.floor((Math.random()*(comms.length-3))+1)];
+        comms[Math.floor((Math.random()*(comms.length-2))+1)];
     }
 }
