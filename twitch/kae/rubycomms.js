@@ -2,7 +2,7 @@ if (Math.random() <= 1/1000) {
     "pp Peepo ( smolD )";
 }
 else {
-    terms=['commands','ruby','xrby1','blameruby','roobify','query'];
+    terms=['commands','ruby','xrby1','blameruby','roobify'];
     
     qsplit=q.split(' ');
     comm=qsplit[0];
@@ -60,8 +60,7 @@ else {
            "Ruby is cool as a cucumber! He can roast me, but he won't hesitate to abbybaBop if you do - one stink to another stink",
            xrby1ruby[Math.floor(Math.random()*xrby1ruby.length)],
            'DAMN IT RUBY this is all your FOOKING fault smolGrump',
-           roobifytext,
-           'current query is: "'+query+'".'];
+           roobifytext];
     
     if(e!=-1) {
         comms[e]+" Peepo";
