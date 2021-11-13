@@ -15,7 +15,6 @@ else {
         i++;
         if (i<qsplit.length) {
             query=query+" ";
-            i++;
         }
     }
     
