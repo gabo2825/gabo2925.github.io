@@ -28,7 +28,8 @@ else {
         i++;
     }
     
-    // !xrby1 code //
+    
+    
     xrby1ruby=['Red guy',
                'Frisbee',
                'Uwuby widepeepoHappy',
@@ -45,12 +46,21 @@ else {
     
     
     
+    roobifytext=if (query.length===0) {
+        query = 'xRby1';
+    }
+    else {
+        query = 'x' + query.replace(/[aeiou@]/gi,'') + '1';
+    }
+    
+    
+    
 
     comms=['Try '+a+'.',
            "Ruby is cool as a cucumber! He can roast me, but he won't hesitate to abbybaBop if you do - one stink to another stink",
            xrby1ruby[Math.floor(Math.random()*xrby1ruby.length)],
            'DAMN IT RUBY this is all your FOOKING fault smolGrump',
-           'execute roobify',
+           roobifytext,
            'current query is: "'+query+'".'];
     
     if(e!=-1) {
