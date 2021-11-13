@@ -28,10 +28,26 @@ else {
         i++;
     }
     
+// xrby1 command
+    xrby1ruby = ['Red guy',
+                 'Frisbee ',
+                 'Uwuby widepeepoHappy',
+                 'W:ohjby',
+                 'Best friends with cicadas',
+                 '6 feet tall at best NODDERS',
+                 'Mamn',
+                 'Roobs',
+                 'Nerd',
+                 'Fitzerby or something idk smolShrug',
+                 'Mod that has been here the longest, for some reason',
+                 'Horse Girl',
+                 'Wtf red guy please eat Smadge'];
+    
+    
+    
     comms=['Try '+a+'.',
            "Ruby is cool as a cucumber! He can roast me, but he won't hesitate to abbybaBop if you do - one stink to another stink",
-           gab=1+1;
-           gab,
+           xrby1ruby[Math.floor(Math.random() * xrby1ruby.length)],
            'DAMN IT RUBY this is all your FOOKING fault smolGrump',
            'execute roobify',
            'current query is: "'+query+'".'];
