@@ -3,7 +3,13 @@ if (Math.random() <= 1/5) {
 }
 else {
     terms=['comms','ruby','xrby1','roobify','blameruby'];
-    e=terms.indexOf(q);
+    
+    qsplit=q.split(' ');
+    
+    comm=qsplit[0];
+    
+    e=terms.indexOf(comm);
+    
     
     i=1;
     a='';
