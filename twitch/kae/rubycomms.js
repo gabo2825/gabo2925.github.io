@@ -2,7 +2,7 @@ if (Math.random() <= 1/1000) {
     "pp Peepo ( smolD )";
 }
 else {
-    terms=['commands','ruby','xrby1','blameruby','roobify'];
+    terms=['commands','ruby','xrby1','blameruby','funnyfolder','roobify'];
     
     qsplit=q.split(' ');
     comm=qsplit[0];
@@ -60,6 +60,7 @@ else {
            "Ruby is cool as a cucumber! He can roast me, but he won't hesitate to abbybaBop if you do - one stink to another stink",
            xrby1ruby[Math.floor(Math.random()*xrby1ruby.length)],
            'DAMN IT RUBY this is all your FOOKING fault smolGrump',
+           'Ahahaha pcrowBoi https://clips.twitch.tv/ThoughtfulWanderingPigeonBrainSlug-X_JB0QesTbWDAKo1',
            roobifytext];
     
     if(e!=-1) {
