@@ -83,7 +83,7 @@ const mad=[' millieMad ',
 	   ' smolGrump '];
 
 if (/^version$|^v$|^ver$/i.test(query)) {
-    " New message for !millie. - September 8 2021 at 17:19 UTC-5. ";
+    " Edited message for !Nym. - January 11 2021 at 00:57 UTC-5. ";
 }
 else if (/^code$/i.test(query)) {
     " Here, check it out! https://gabo2825.github.io/twitch/kae/kaepets.js ";
@@ -138,7 +138,7 @@ else {
             else {
                 count++
             }
-            facts=[" She had an accident long ago, so she lost a leg. "+pout[Math.floor(Math.random()*pout.length)],
+            facts=[" She had an accident long ago, so she lost a leg. "+pout[Math.floor(Math.random()*pout.length)]+" (all good, though! she is still a demon "+evil[Math.floor(Math.random()*evil.length)]+" )",
 		   " Don't let her cuteness fool you, she's the devil in cat form. "+evil[Math.floor(Math.random()*evil.length)],
 		   " She is small, but she does not care. "+cool[Math.floor(Math.random()*cool.length)],
 		   " Millie could absolutely woop her ass. "+evil[Math.floor(Math.random()*evil.length)],
