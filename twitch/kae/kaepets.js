@@ -164,7 +164,7 @@ else {
         }
 	    
 	    
-	else if (/^MsKitty$|^ms$|^ms.$|^miss$|^Kitty$|^Miss Kitty$|^Ms Kitty$|^Ms. Kitty$|^m$/i.test(query)) {
+	else if (/^MsKitty$|^ms$|^ms.$|^miss$|^Kitty$|^Miss Kitty$|^Ms Kitty$|^Ms. Kitty$/i.test(query)) {
             count++;
             if (count>=1) {
                 intro=" Ms. Kitty is the ";
