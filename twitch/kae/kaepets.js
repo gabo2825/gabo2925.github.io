@@ -83,7 +83,7 @@ const mad=[' millieMad ',
 	   ' smolGrump '];
 
 if (/^version$|^v$|^ver$/i.test(query)) {
-    " Edited message for !Nym. - January 11 2021 at 00:57 UTC-5. ";
+    " Added !MsKitty. - February 26 2021 at 23:27 UTC-5. ";
 }
 else if (/^code$/i.test(query)) {
     " Here, check it out! https://gabo2825.github.io/twitch/kae/kaepets.js ";
