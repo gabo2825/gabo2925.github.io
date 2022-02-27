@@ -113,6 +113,7 @@ else {
             intro+" demon cat "+millieemote[Math.floor(Math.random()*millieemote.length)]+" : "+facts[Math.floor(Math.random()*facts.length)];
         }
         
+	    
         else if (/^Fitz$|^f$/i.test(query)) {
             count++;
             if (count>=1) {
@@ -130,6 +131,7 @@ else {
             intro+" big cat widepeepoHappy : "+facts[Math.floor(Math.random()*facts.length)];
         }
         
+	    
         else if (/^Nym$|^n$/i.test(query)) {
             count++;
             if (count>=1) {
@@ -146,6 +148,7 @@ else {
             intro+" 3 legged cutie SWOONER : "+facts[Math.floor(Math.random()*facts.length)];
         }
 	    
+	    
 	else if (/^Gwen$|^g$/i.test(query)) {
             count++;
             if (count>=1) {
@@ -160,11 +163,23 @@ else {
             intro+" Australian Shepherd SWOONER : "+facts[Math.floor(Math.random()*facts.length)];
         }
 	    
+	    
+	else if (/^MsKitty$|^ms$|^ms.$|^miss$|^Kitty$|^Miss Kitty$|^Ms Kitty$|^Ms. Kitty$|^m$/i.test(query)) {
+            count++;
+            if (count>=1) {
+                intro=" Ms. Kitty is the ";
+            }
+            else {
+                count++
+            }
+            facts=[" She MEOWS. MYAAA "];
+            intro+" [detail] : "+facts[Math.floor(Math.random()*facts.length)];
+        }
+	    
+	    
         else {
             query=["Millie",
-                   "Fitz",
-                   "Nym",
-		   "Gwen"];
+		   "Kitty"];
             query=query[Math.floor(Math.random()*query.length)];
             intro=" Kae's got 4 cuties: Millie, Fitz, Nym, and Gwen!"+introemote[Math.floor(Math.random()*introemote.length)]+"Here's a fact about "+query+", the ";
             count--;
