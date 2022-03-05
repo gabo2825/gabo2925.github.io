@@ -2,7 +2,7 @@
 /*Used in kaestrain.*/
 const introemote=[" kaestr1Hug ",
                   " kaestr1Cool ",
-                  " kaestr1Eyes "];
+                  " kaestr1Cheese "];
 
 const love=[' elizab34Uwu ',
             ' kaestr1Hug ',
@@ -181,7 +181,7 @@ else {
             query=["Millie",
 		   "Kitty"];
             query=query[Math.floor(Math.random()*query.length)];
-            intro=" Kae's got 4 cuties: Millie, Fitz, Nym, and Gwen!"+introemote[Math.floor(Math.random()*introemote.length)]+"Here's a fact about "+query+", the ";
+            intro=" Throughout stream, you'll be able to see Millie and Ms. Kitty on the background kaestr1Cheese "+introemote[Math.floor(Math.random()*introemote.length)]+"Here's a fact about "+query+", the ";
             count--;
         }
     }   
