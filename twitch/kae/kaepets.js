@@ -83,7 +83,7 @@ const mad=[' millieMad ',
 	   ' smolGrump '];
 
 if (/^version$|^v$|^ver$/i.test(query)) {
-    " Only Millie and Ms. Kitty should trigger when you '!pets' - February 26 2021 at 23:27 UTC-5. ";
+    " Only Millie and Ms. Kitty should trigger when you '!pets' + fixed emotes - March 4 2021 at 19:55 UTC-5. ";
 }
 else if (/^code$/i.test(query)) {
     " Here, check it out! https://gabo2825.github.io/twitch/kae/kaepets.js ";
@@ -181,7 +181,7 @@ else {
             query=["Millie",
 		   "Kitty"];
             query=query[Math.floor(Math.random()*query.length)];
-            intro=" Throughout stream, you'll be able to see Millie and Ms. Kitty on the background kaestr1Cheese "+introemote[Math.floor(Math.random()*introemote.length)]+"Here's a fact about "+query+", the ";
+            intro=" Throughout stream, you'll be able to see Millie and Ms. Kitty on the background "+introemote[Math.floor(Math.random()*introemote.length)]+"Here's a fact about "+query+", the ";
             count--;
         }
     }   
