@@ -83,7 +83,7 @@ const mad=[' millieMad ',
 	   ' smolGrump '];
 
 if (/^version$|^v$|^ver$/i.test(query)) {
-    " Added !MsKitty. - February 26 2021 at 23:27 UTC-5. ";
+    " Only Millie and Ms. Kitty should trigger when you '!pets' - February 26 2021 at 23:27 UTC-5. ";
 }
 else if (/^code$/i.test(query)) {
     " Here, check it out! https://gabo2825.github.io/twitch/kae/kaepets.js ";
