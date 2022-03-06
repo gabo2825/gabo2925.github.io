@@ -83,7 +83,7 @@ const mad=[' millieMad ',
 final="[no message]";
 
 if (/^version$|^v$|^ver$/i.test(query)) {
-    " MYAAA - March 5 2021 at 20:40 UTC-5. ";
+    " MYAAA - March 5 2021 at 21:08 UTC-5. ";
 }
 else if (/^code$/i.test(query)) {
     " Here, check it out! https://gabo2825.github.io/twitch/kae/kaepets.js ";
