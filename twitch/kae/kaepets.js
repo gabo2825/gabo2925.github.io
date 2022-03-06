@@ -80,6 +80,8 @@ const mad=[' millieMad ',
 	   ' Madge ',
 	   ' smolGrump '];
 
+final="[no message]";
+
 if (/^version$|^v$|^ver$/i.test(query)) {
     " Added facts for Ms. Kitty and fixed some emotes. - March 5 2021 at 20:40 UTC-5. ";
 }
@@ -108,7 +110,7 @@ else {
 		   " She likes attention, a LOT! "+sleep[Math.floor(Math.random()*sleep.length)],
 		   " She loooves to make biscuits on her blankie "+love[Math.floor(Math.random()*love.length)],
 		   " She is scared of EVERYTHING!! "+omg[Math.floor(Math.random()*omg.length)]];
-            intro+" demon cat "+millieemote[Math.floor(Math.random()*millieemote.length)]+" : "+facts[Math.floor(Math.random()*facts.length)];
+            final=intro+" demon cat "+millieemote[Math.floor(Math.random()*millieemote.length)]+" : "+facts[Math.floor(Math.random()*facts.length)];
         }
         
 	    
@@ -126,7 +128,7 @@ else {
 		   " He, for some reason, loves sleeping on top of Kae's dresser. "+lul[Math.floor(Math.random()*lul.length)]+sleep[Math.floor(Math.random()*sleep.length)],
 		   " Millie absolutely despises him. "+evil[Math.floor(Math.random()*evil.length)],
 		   " He doesn't like kisses... but we love himb anyway. "+love[Math.floor(Math.random()*love.length)]];
-            intro+" big cat widepeepoHappy : "+facts[Math.floor(Math.random()*facts.length)];
+            final=intro+" big cat widepeepoHappy : "+facts[Math.floor(Math.random()*facts.length)];
         }
         
 	    
@@ -143,7 +145,7 @@ else {
 		   " She is small, but she does not care. "+cool[Math.floor(Math.random()*cool.length)],
 		   " Millie could absolutely woop her ass. "+evil[Math.floor(Math.random()*evil.length)],
 		   " She hates a little bit of everything, but we love her anyway. "+love[Math.floor(Math.random()*love.length)]];
-            intro+" 3 legged cutie SWOONER : "+facts[Math.floor(Math.random()*facts.length)];
+            final=intro+" 3 legged cutie SWOONER : "+facts[Math.floor(Math.random()*facts.length)];
         }
 	    
 	    
@@ -158,7 +160,7 @@ else {
             facts=[" One of her eyes is half brown half blue. "+love[Math.floor(Math.random()*love.length)],
 		   " She tries herding the cats. "+lul[Math.floor(Math.random()*lul.length)],
 		   " She always turns off Kae's computer whenever she lies under the desk. "+omg[Math.floor(Math.random()*omg.length)]];
-            intro+" Australian Shepherd SWOONER : "+facts[Math.floor(Math.random()*facts.length)];
+            final=intro+" Australian Shepherd SWOONER : "+facts[Math.floor(Math.random()*facts.length)];
         }
 	    
 	    
@@ -173,7 +175,7 @@ else {
             facts=[" She MEOWS. MYAAA ",
 		   " She was a stray that adopted Kae's dad "+omg[Math.floor(Math.random()*omg.length)],
 		   " She found Kae's dad while she was pregnant and used him for food "+omg[Math.floor(Math.random()*omg.length)]];
-            intro+" smol calico cat SWOONER : "+facts[Math.floor(Math.random()*facts.length)];
+            final=intro+" smol calico cat SWOONER : "+facts[Math.floor(Math.random()*facts.length)];
         }
 	    
 	    
@@ -186,3 +188,5 @@ else {
         }
     }   
 }
+
+final;
