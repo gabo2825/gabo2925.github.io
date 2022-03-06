@@ -177,8 +177,9 @@ else {
             }
             facts=[" She MEOWS. MYAAA ",
 		   " She was a stray that adopted Kae's dad "+omg[Math.floor(Math.random()*omg.length)],
-		   " She found Kae's dad while she was pregnant and used him for food "+omg[Math.floor(Math.random()*omg.length)]];
-						if(Math.random() <= 1/25){facts=[" MYAAA MYAAA MYAAA MYAAA MYAAA MYAAA MYAAA MYAAA "];}
+		   " She found Kae's dad while she was pregnant and used him for food "+omg[Math.floor(Math.random()*omg.length)],
+		   " She's VERY feisty smolFite "];
+		   if(Math.random() <= 1/25){facts=[" MYAAA MYAAA MYAAA MYAAA MYAAA MYAAA MYAAA MYAAA "];}
             final=intro+" smol calico cat SWOONER : "+facts[Math.floor(Math.random()*facts.length)];
         }
 	    
