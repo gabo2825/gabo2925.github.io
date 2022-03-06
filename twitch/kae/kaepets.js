@@ -83,7 +83,7 @@ const mad=[' millieMad ',
 final="[no message]";
 
 if (/^version$|^v$|^ver$/i.test(query)) {
-	final=" MYAAA but MYAAA is not that often - March 5 2021 at 21:19 UTC-5. ";
+	final=" Fixed chances to MYAA on different pets - March 6 2021 at 1:38 UTC-5. ";
 }
 else if (/^code$/i.test(query)) {
 	final=" Here, check it out! https://gabo2825.github.io/twitch/kae/kaepets.js ";
@@ -110,7 +110,7 @@ else {
 								   " She likes attention, a LOT! "+sleep[Math.floor(Math.random()*sleep.length)],
 								   " She loooves to make biscuits on her blankie "+love[Math.floor(Math.random()*love.length)],
 								   " She is scared of EVERYTHING!! "+omg[Math.floor(Math.random()*omg.length)]];
-					  if(Math.random() <= 1/25){facts=[" MYAAA MYAAA MYAAA MYAAA MYAAA MYAAA MYAAA MYAAA "];}
+					  if(Math.random() <= 1/100){facts=[" MYAAA MYAAA "];}
             final=intro+" demon cat "+millieemote[Math.floor(Math.random()*millieemote.length)]+" : "+facts[Math.floor(Math.random()*facts.length)];
         }
         
@@ -129,7 +129,7 @@ else {
 		   " He, for some reason, loves sleeping on top of Kae's dresser. "+lul[Math.floor(Math.random()*lul.length)]+sleep[Math.floor(Math.random()*sleep.length)],
 		   " Millie absolutely despises him. "+evil[Math.floor(Math.random()*evil.length)],
 		   " He doesn't like kisses... but we love himb anyway. "+love[Math.floor(Math.random()*love.length)]];
-					  if(Math.random() <= 1/25){facts=[" MYAAA MYAAA MYAAA MYAAA MYAAA MYAAA MYAAA MYAAA "];}
+					  if(Math.random() <= 1/25){facts=[" MYAAA MYAAA MYAAA MYAAA MYAAA "];}
             final=intro+" big cat widepeepoHappy : "+facts[Math.floor(Math.random()*facts.length)];
         }
         
