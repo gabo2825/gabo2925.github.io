@@ -83,7 +83,7 @@ const mad=[' millieMad ',
 final="[no message]";
 
 if (/^version$|^v$|^ver$/i.test(query)) {
-	final=" MYAAA but I didn't mess up - March 5 2021 at 21:10 UTC-5. ";
+	final=" MYAAA but I didn't mess up and 'A' is GONE - March 5 2021 at 21:16 UTC-5. ";
 }
 else if (/^code$/i.test(query)) {
 	final=" Here, check it out! https://gabo2825.github.io/twitch/kae/kaepets.js ";
