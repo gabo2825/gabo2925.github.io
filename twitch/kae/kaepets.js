@@ -43,13 +43,11 @@ const sad=[' kaestr1Cry    ',
 const omg=[' smolWow     ',
            ' pcrowWow    ',
            ' smolD       ',
-           ' bryce4Eyes  ',
            ' lycelW      ',
            ' lycelAAA    ',
            ' kaestr1Eyes ',
-           ' maizEyes    ',
-           ' maizBlush   ',
-	   ' bbytesS '];
+	   ' bbytesS ',
+	   ' MYAAA '];
 
 const sleep=[' pcrowCozy ',
              ' pcrowZ ',
@@ -83,7 +81,7 @@ const mad=[' millieMad ',
 	   ' smolGrump '];
 
 if (/^version$|^v$|^ver$/i.test(query)) {
-    " Only Millie and Ms. Kitty should trigger when you '!pets' + fixed emotes - March 4 2021 at 19:55 UTC-5. ";
+    " Added facts for Ms. Kitty and fixed some emotes. - March 5 2021 at 20:40 UTC-5. ";
 }
 else if (/^code$/i.test(query)) {
     " Here, check it out! https://gabo2825.github.io/twitch/kae/kaepets.js ";
@@ -172,8 +170,10 @@ else {
             else {
                 count++
             }
-            facts=[" She MEOWS. MYAAA "];
-            intro+" [detail] : "+facts[Math.floor(Math.random()*facts.length)];
+            facts=[" She MEOWS. MYAAA ",
+		   " She was a stray that adopted Kae's dad "+omg[Math.floor(Math.random()*omg.length)],
+		   " She found Kae's dad while she was pregnant and used him for food "+omg[Math.floor(Math.random()*omg.length)]];
+            intro+" smol calico cat SWOONER : "+facts[Math.floor(Math.random()*facts.length)];
         }
 	    
 	    
